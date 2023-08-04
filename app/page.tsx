@@ -1,6 +1,46 @@
 import { ArrowRight, CheckCircle2 } from "lucide-react";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
+import { Button } from "@/components/ui/button";
 
 export default function Home() {
+  const faqs = [
+    {
+      question: "Is there a free trial available?",
+      answer:
+        "Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
+    },
+    {
+      question: "Can I change my plan later?",
+      answer:
+        "Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
+    },
+    {
+      question: "What is your cancellation policy?",
+      answer:
+        "Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
+    },
+    {
+      question: "Can other info be added to an invoice?",
+      answer:
+        "Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
+    },
+    {
+      question: "How does billing work?",
+      answer:
+        "Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
+    },
+    {
+      question: "How do I change my account email?",
+      answer:
+        "Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
+    },
+  ];
+
   return (
     // <main className="flex min-h-screen flex-col items-center justify-between p-24">
     <main className="flex flex-col mt-[-80px] items-center">
@@ -43,7 +83,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="flex flex-col my-24 gap-24 max-w-7xl px-8 w-full">
+      <section className="flex flex-col py-24 gap-24">
         <div className="max-w-7xl px-8 flex justify-center">
           <div className="max-w-3xl flex flex-col gap-5 text-center">
             <div className="flex flex-col gap-3">
@@ -192,6 +232,45 @@ export default function Home() {
               className="absolute h-full object-cover overflow-x-visible object-left"
               alt=""
             />
+          </div>
+        </div>
+      </section>
+
+      <section className="flex flex-col py-24 gap-24 w-full max-w-7xl">
+        <div className="max-w-7xl px-8 flex justify-center">
+          <div className="max-w-3xl flex flex-col gap-5 text-center">
+            <p className="text-4xl font-semibold">Frequently asked questions</p>
+            <p className="text-xl">
+              Everything you need to know about the product and billing.
+            </p>
+          </div>
+        </div>
+
+        <div className="max-w-7xl px-8 flex justify-center">
+          <Accordion type="single" collapsible className="w-full max-w-3xl">
+            {faqs.map((faq, index) => (
+              <AccordionItem key={index} value={`item-${index}`}>
+                <AccordionTrigger className="text-lg">
+                  {faq.question}
+                </AccordionTrigger>
+                <AccordionContent className="text-base">
+                  {faq.answer}
+                </AccordionContent>
+              </AccordionItem>
+            ))}
+          </Accordion>
+        </div>
+
+        <div className="max-w-7xl px-8 flex justify-center w-full">
+          <div className="p-8 bg-slate-100 rounded-2xl flex flex-col gap-8 items-center w-full">
+            <div className="text-center">
+              <p className="text-xl font-semibold">Still have questions?</p>
+              <p className="text-lg">
+                Can’t find the answer you’re looking for? Please chat to our
+                friendly team.
+              </p>
+            </div>
+            <Button>Get in touch</Button>
           </div>
         </div>
       </section>
