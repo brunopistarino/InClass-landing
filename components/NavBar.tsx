@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Menu } from "lucide-react";
 
 export default function NavBar() {
   return (
@@ -10,7 +11,7 @@ export default function NavBar() {
             <p className="font-semibold text-2xl">InClass</p>
           </div>
         </a>
-        <div className="flex gap-2">
+        <div className="gap-2 hidden sm:flex">
           <Button variant="ghost" className="font-semibold">
             Tutorials
           </Button>
@@ -21,6 +22,13 @@ export default function NavBar() {
             Contact
           </Button>
         </div>
+        <Button
+          variant="ghost"
+          size="icon"
+          className="sm:hidden flex justify-center"
+        >
+          <Menu />
+        </Button>
       </div>
     </nav>
   );

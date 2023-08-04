@@ -236,6 +236,23 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="max-w-7xl py-24 justify-center px-8 w-full flex flex-col">
+        <div className="max-w-7xl px-8 flex justify-center">
+          <div className="max-w-3xl flex flex-col gap-5 text-center">
+            <p className="text-4xl font-semibold">Give it your own style</p>
+            <p className="text-xl">
+              Everything you need to know about the product and billing.
+            </p>
+          </div>
+        </div>
+        <div className="grid grid-cols-4 gap-10">
+          <img src="mockup1.png" className="object-contain mt-20" alt="" />
+          <img src="mockup1.png" className="object-contain mt-20" alt="" />
+          <img src="mockup1.png" className="object-contain mt-20" alt="" />
+          <img src="mockup1.png" className="object-contain mt-20" alt="" />
+        </div>
+      </section>
+
       <section className="flex flex-col py-24 gap-24 w-full max-w-7xl">
         <div className="max-w-7xl px-8 flex justify-center">
           <div className="max-w-3xl flex flex-col gap-5 text-center">
