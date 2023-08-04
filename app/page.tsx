@@ -45,7 +45,7 @@ export default function Home() {
     // <main className="flex min-h-screen flex-col items-center justify-between p-24">
     <main className="flex flex-col mt-[-80px] items-center">
       <section className="min-h-screen flex justify-center w-full max-w-7xl px-8">
-        <div className="flex justify-between w-full items-center gap-4">
+        <div className="flex justify-between w-full items-center gap-4 flex-col md:flex-row">
           <div className="max-w-2xl flex flex-col gap-12">
             <div className="flex flex-col gap-6 items-start">
               <a href="">
