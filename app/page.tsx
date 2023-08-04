@@ -263,6 +263,23 @@ export default function Home() {
 
         <div className="max-w-7xl px-8 flex justify-center w-full">
           <div className="p-8 bg-slate-100 rounded-2xl flex flex-col gap-8 items-center w-full">
+            <div className="flex items-baseline">
+              <img
+                src="profile1.png"
+                alt=""
+                className="bg-black w-14 h-14 rounded-full border-2 border-white translate-x-4"
+              />
+              <img
+                src="profile1.png"
+                alt=""
+                className="bg-black w-16 h-16 rounded-full border-2 border-white z-20"
+              />
+              <img
+                src="profile1.png"
+                alt=""
+                className="bg-black w-14 h-14 rounded-full border-2 border-white translate-x-[-16px]"
+              />
+            </div>
             <div className="text-center">
               <p className="text-xl font-semibold">Still have questions?</p>
               <p className="text-lg">
