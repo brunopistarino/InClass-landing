@@ -236,7 +236,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="max-w-7xl py-24 justify-center px-8 w-full flex flex-col">
+      <section className="max-w-7xl py-16 md:py-24 justify-center px-8 w-full flex flex-col">
         <div className="max-w-7xl px-8 flex justify-center">
           <div className="max-w-3xl flex flex-col gap-5 text-center">
             <p className="text-4xl font-semibold">Give it your own style</p>
@@ -253,8 +253,8 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="flex flex-col py-24 gap-24 w-full max-w-7xl">
-        <div className="max-w-7xl px-8 flex justify-center">
+      <section className="flex flex-col py-16 md:py-24 gap-12 md:gap-24 w-full max-w-7xl">
+        <div className="max-w-7xl px-4 md:px-8 flex justify-center">
           <div className="max-w-3xl flex flex-col gap-5 text-center">
             <p className="text-4xl font-semibold">Frequently asked questions</p>
             <p className="text-xl">
@@ -282,7 +282,7 @@ export default function Home() {
           <div className="p-8 bg-slate-100 rounded-2xl flex flex-col gap-8 items-center w-full">
             <div className="flex items-baseline">
               <img
-                src="bruno.png"
+                src="luca2.png"
                 alt=""
                 className="w-16 h-16 rounded-full border-2 border-white translate-x-4"
               />
@@ -309,9 +309,9 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="flex flex-col py-24 gap-16 w-full max-w-7xl">
+      <section className="flex flex-col py-16 md:py-24 gap-12 md:gap-16 w-full max-w-7xl px-4 md:px-8">
         <p className="text-4xl font-semibold">All our platforms</p>
-        <div className="grid gap-8 grid-cols-3">
+        <div className="grid gap-6 md:gap-8 grid-cols-1 md:grid-cols-3">
           <div className="bg-slate-100 rounded-2xl h-60 flex flex-col justify-center items-center">
             <p>iPhone / iPad</p>
           </div>
