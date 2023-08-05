@@ -46,7 +46,7 @@ export default function Home() {
     <main className="flex flex-col md:mt-[-80px] items-center">
       <section className="min-h-screen flex justify-center w-full max-w-7xl px-4 md:px-8 py-16 md:py-24">
         <div className="flex justify-between w-full items-center flex-col md:flex-row gap-16">
-          <div className="max-w-2xl flex flex-col gap-8 md:gap-12">
+          <div className="max-w-2xl flex flex-col gap-8 md:gap-12 relative">
             <div className="flex flex-col gap-4 md:gap-6 items-start">
               <a href="">
                 <div className="border p-1 rounded-full flex items-center gap-2 pr-2">
@@ -61,7 +61,7 @@ export default function Home() {
                   in one place
                 </span>
               </h1>
-              <p className="text-lg md:text-xl">
+              <p className="text-lg md:text-xl z-20">
                 For studentds by students. Designed to make you reach all show
                 goals in school and never forget classes, importat exams or
                 assignments.
@@ -73,11 +73,18 @@ export default function Home() {
               className="w-[160px] mx-auto md:mx-0"
               alt=""
             />
+            <img
+              src="wave.png"
+              className="absolute bottom-[-90px] w-56"
+              alt=""
+            />
             {/* </a> */}
           </div>
           <div className="flex flex-1 justify-center">
             {/* <img src="Blob.svg" className="" alt="" /> */}
             {/* <img src="mockup1.png" className="object-contain max-w-md" alt="" /> */}
+            <img src="shape1.png" className="absolute" alt="" />
+            {/* <img src="spiral.png" className="absolute" alt="" /> */}
             <img
               src="iphone3.png"
               className="object-contain max-w-md max-h-[650px] drop-shadow-xl"
@@ -93,7 +100,12 @@ export default function Home() {
       >
         <div className="max-w-7xl px-4 md:px-8 flex justify-center">
           <div className="max-w-3xl flex flex-col gap-4 md:gap-5 text-center">
-            <div className="flex flex-col gap-3">
+            <div className="flex flex-col gap-3 relative">
+              <img
+                src="cloud.png"
+                className="absolute top-[-120px] right-2/3 w-48"
+                alt=""
+              />
               <p className="text-cyan-700 font-semibold text-sm md:text-base">
                 Features
               </p>
@@ -111,7 +123,12 @@ export default function Home() {
 
         <div className="max-w-7xl px-4 md:px-8 flex flex-col md:flex-row justify-between items-center gap-10 md:gap-24">
           <div className="flex flex-col flex-1 gap-8">
-            <div className="flex flex-col gap-6 items-start">
+            <div className="flex flex-col gap-6 items-start relative">
+              <img
+                src="flover.png"
+                className="absolute top-0 right-0 w-28"
+                alt=""
+              />
               <div className="p-3 rounded-full border-8 bg-slate-400">
                 <ArrowRight />
               </div>
@@ -163,7 +180,12 @@ export default function Home() {
               alt=""
             />
           </div>
-          <div className="flex flex-col flex-1 gap-8">
+          <div className="flex flex-col flex-1 gap-8 relative">
+            <img
+              src="flag.png"
+              className="absolute right-0 top-[-50px] w-32"
+              alt=""
+            />
             <div className="flex flex-col gap-6 items-start">
               <div className="p-3 rounded-full border-8 bg-slate-400">
                 <ArrowRight />
@@ -202,7 +224,12 @@ export default function Home() {
         </div>
 
         <div className="max-w-7xl px-8 flex justify-between items-center gap-24">
-          <div className="flex flex-col flex-1 gap-8">
+          <div className="flex flex-col flex-1 gap-8 relative">
+            <img
+              src="scribble_circle.png"
+              className="absolute top-[-80px] left-[-130px] w-32"
+              alt=""
+            />
             <div className="flex flex-col gap-6 items-start">
               <div className="p-3 rounded-full border-8 bg-slate-400">
                 <ArrowRight />
@@ -252,7 +279,12 @@ export default function Home() {
       <section className="max-w-7xl py-16 md:py-24 justify-center w-full">
         <div className="px-4 md:px-8 flex flex-col">
           <div className="max-w-7xl px-4 md:px-8 flex justify-center">
-            <div className="max-w-3xl flex flex-col gap-5 text-center">
+            <div className="max-w-3xl flex flex-col gap-5 text-center relative">
+              <img
+                src="star.png"
+                className="absolute w-24 top-[-80px] left-[-20px]"
+                alt=""
+              />
               <p className="text-3xl md:text-4xl font-semibold">
                 Give it your own style
               </p>
@@ -286,7 +318,12 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="flex flex-col py-16 md:py-24 gap-12 md:gap-24 w-full max-w-7xl">
+      <section className="flex flex-col py-16 md:py-24 gap-12 md:gap-24 w-full max-w-7xl relative">
+        <img
+          src="3-arrows.png"
+          className="absolute top-[-10px] w-44 right-2/3 rotate-180"
+          alt=""
+        />
         <div className="max-w-7xl px-4 md:px-8 flex justify-center">
           <div className="max-w-3xl flex flex-col gap-5 text-center">
             <p className="text-3xl md:text-4xl font-semibold">
@@ -314,7 +351,12 @@ export default function Home() {
         </div>
 
         <div className="max-w-7xl px-4 md:px-8 flex justify-center w-full">
-          <div className="py-8 px-5 md:px-8 bg-slate-100 rounded-2xl flex flex-col gap-8 items-center w-full">
+          <div className="py-8 px-5 md:px-8 bg-slate-100 rounded-2xl flex flex-col gap-8 items-center w-full relative">
+            <img
+              src="question-mark.png"
+              className="absolute top-[-30px] right-3 w-24"
+              alt=""
+            />
             <div className="flex items-baseline">
               <img
                 src="luca2.png"
@@ -344,7 +386,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="flex flex-col py-16 md:py-24 gap-12 md:gap-16 w-full max-w-7xl px-4 md:px-8">
+      <section className="flex flex-col py-16 md:py-24 gap-12 md:gap-16 w-full max-w-7xl px-4 md:px-8 relative">
         <p className="text-4xl font-semibold">All our platforms</p>
         <div className="grid gap-6 md:gap-8 grid-cols-1 md:grid-cols-3">
           <div className="bg-slate-100 rounded-2xl h-60 flex flex-col justify-center items-center">
@@ -367,6 +409,7 @@ export default function Home() {
             </p>
           </div>
         </div>
+        <img src="fire.png" className="absolute bottom-0 w-32" alt="" />
       </section>
     </main>
   );

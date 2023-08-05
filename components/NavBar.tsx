@@ -1,9 +1,18 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
 import { Menu } from "lucide-react";
+import { useWindowScroll } from "@mantine/hooks";
 
 export default function NavBar() {
+  const [scroll, scrollTo] = useWindowScroll();
+
   return (
-    <nav className="h-20 flex justify-center sticky top-0 backdrop-blur-xl border-b z-50">
+    <nav
+      className={`h-20 flex justify-center sticky top-0 backdrop-blur-xl ${
+        scroll.y > 0 && "border-b"
+      } z-50`}
+    >
       <div className="flex items-center max-w-7xl w-full justify-between px-4 md:px-8">
         <a href="">
           <div className="flex items-center gap-4">
