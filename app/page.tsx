@@ -250,7 +250,7 @@ export default function Home() {
       </section>
 
       <section className="max-w-7xl py-16 md:py-24 justify-center w-full">
-        <div className="px-4 md:px-8 flex flex-col gap-20">
+        <div className="px-4 md:px-8 flex flex-col gap-12 md:gap-24">
           <div className="max-w-7xl px-4 md:px-8 flex justify-center">
             <div className="max-w-3xl flex flex-col gap-5 text-center">
               <p className="text-3xl md:text-4xl font-semibold">
@@ -261,7 +261,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-10">
             <img
               src="iphoneStyle1.png"
               className="object-contain hover:scale-105 transition-all duration-300"
