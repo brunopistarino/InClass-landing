@@ -43,11 +43,11 @@ export default function Home() {
 
   return (
     // <main className="flex min-h-screen flex-col items-center justify-between p-24">
-    <main className="flex flex-col mt-[-80px] items-center">
-      <section className="min-h-screen flex justify-center w-full max-w-7xl px-8">
-        <div className="flex justify-between w-full items-center gap-4 flex-col md:flex-row">
-          <div className="max-w-2xl flex flex-col gap-12">
-            <div className="flex flex-col gap-6 items-start">
+    <main className="flex flex-col md:mt-[-80px] items-center">
+      <section className="min-h-screen flex justify-center w-full max-w-7xl px-4 md:px-8 py-16 md:py-24">
+        <div className="flex justify-between w-full items-center flex-col md:flex-row gap-16">
+          <div className="max-w-2xl flex flex-col gap-8 md:gap-12">
+            <div className="flex flex-col gap-4 md:gap-6 items-start">
               <a href="">
                 <div className="border p-1 rounded-full flex items-center gap-2 pr-2">
                   <span className="border px-2 rounded-full">New!</span>{" "}
@@ -55,30 +55,30 @@ export default function Home() {
                   <ArrowRight />
                 </div>
               </a>
-              <h1 className="text-6xl font-semibold">
+              <h1 className="text-4xl md:text-6xl font-semibold">
                 All your academic life in one place
               </h1>
               {/* <p className="text-xl">
                 Designed by marketers. Untitled gives you the guidance, data and
                 innovation you need to become a better marketer.
               </p> */}
-              <p className="text-xl">
+              <p className="text-lg md:text-xl">
                 For studentds by students. Designed to make you reach all show
                 goals in school and never forget classes, importat exams or
                 assignments.
               </p>
             </div>
             {/* <a href=""> */}
-            <img src="appStoreBadge.svg" className="max-w-[160px]" alt="" />
-            {/* </a> */}
-          </div>
-          <div>
-            {/* <img src="Blob.svg" className="" alt="" /> */}
             <img
-              src="iphone.png"
-              className="object-contain max-w-md mt-20"
+              src="appStoreBadge.svg"
+              className="w-[160px] mx-auto md:mx-0"
               alt=""
             />
+            {/* </a> */}
+          </div>
+          <div className="flex flex-1 justify-center">
+            {/* <img src="Blob.svg" className="" alt="" /> */}
+            <img src="mockup1.png" className="object-contain max-w-md" alt="" />
           </div>
         </div>
       </section>
@@ -263,7 +263,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="max-w-7xl px-8 flex justify-center">
+        <div className="max-w-7xl px-4 md:px-8 flex justify-center">
           <Accordion type="single" collapsible className="w-full max-w-3xl">
             {faqs.map((faq, index) => (
               <AccordionItem key={index} value={`item-${index}`}>
@@ -278,23 +278,23 @@ export default function Home() {
           </Accordion>
         </div>
 
-        <div className="max-w-7xl px-8 flex justify-center w-full">
+        <div className="max-w-7xl px-4 md:px-8 flex justify-center w-full">
           <div className="p-8 bg-slate-100 rounded-2xl flex flex-col gap-8 items-center w-full">
             <div className="flex items-baseline">
               <img
-                src="profile1.png"
+                src="bruno.png"
                 alt=""
-                className="bg-black w-14 h-14 rounded-full border-2 border-white translate-x-4"
+                className="w-16 h-16 rounded-full border-2 border-white translate-x-4"
               />
               <img
-                src="profile1.png"
+                src="bruno.png"
                 alt=""
-                className="bg-black w-16 h-16 rounded-full border-2 border-white z-20"
+                className="w-20 h-20 rounded-full border-2 border-white z-20"
               />
               <img
-                src="profile1.png"
+                src="luca.png"
                 alt=""
-                className="bg-black w-14 h-14 rounded-full border-2 border-white translate-x-[-16px]"
+                className="w-16 h-16 rounded-full border-2 border-white translate-x-[-16px]"
               />
             </div>
             <div className="text-center">
@@ -305,6 +305,23 @@ export default function Home() {
               </p>
             </div>
             <Button>Get in touch</Button>
+          </div>
+        </div>
+      </section>
+
+      <section className="flex flex-col py-24 gap-16 w-full max-w-7xl">
+        <p className="text-4xl font-semibold">All our platforms</p>
+        <div className="grid gap-8 grid-cols-3">
+          <div className="bg-slate-100 rounded-2xl h-60 flex flex-col justify-center items-center">
+            <p>iPhone / iPad</p>
+          </div>
+          <div className="bg-slate-100 rounded-2xl h-60 flex flex-col justify-center items-center">
+            <p>mac</p>
+            <p>Coming soon</p>
+          </div>
+          <div className="bg-slate-100 rounded-2xl h-60 flex flex-col justify-center items-center">
+            <p>web</p>
+            <p>Coming soon</p>
           </div>
         </div>
       </section>
