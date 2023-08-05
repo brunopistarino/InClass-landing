@@ -15,9 +15,11 @@ export default function NavBar() {
           <Button variant="ghost" className="font-semibold">
             Tutorials
           </Button>
-          <Button variant="ghost" className="font-semibold">
-            Features
-          </Button>
+          <a href="#features">
+            <Button variant="ghost" className="font-semibold">
+              Features
+            </Button>
+          </a>
           <Button variant="ghost" className="font-semibold">
             Contact
           </Button>

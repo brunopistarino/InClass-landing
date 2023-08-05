@@ -74,12 +74,20 @@ export default function Home() {
           </div>
           <div className="flex flex-1 justify-center">
             {/* <img src="Blob.svg" className="" alt="" /> */}
-            <img src="mockup1.png" className="object-contain max-w-md" alt="" />
+            {/* <img src="mockup1.png" className="object-contain max-w-md" alt="" /> */}
+            <img
+              src="iphone3.png"
+              className="object-contain max-w-md max-h-[650px] drop-shadow-xl"
+              alt=""
+            />
           </div>
         </div>
       </section>
 
-      <section className="flex flex-col py-16 md:py-24 gap-12 md:gap-24">
+      <section
+        className="flex flex-col py-16 md:py-24 gap-12 md:gap-24"
+        id="features"
+      >
         <div className="max-w-7xl px-4 md:px-8 flex justify-center">
           <div className="max-w-3xl flex flex-col gap-4 md:gap-5 text-center">
             <div className="flex flex-col gap-3">
@@ -137,8 +145,8 @@ export default function Home() {
           </div>
           <div className="flex flex-1 md:min-h-[512px] relative">
             <img
-              src="ipad.png"
-              className="md:absolute h-full object-cover overflow-x-visible object-left"
+              src="ipad1.png"
+              className="md:absolute h-full object-cover overflow-x-visible object-left drop-shadow-xl"
               alt=""
             />
           </div>
@@ -251,10 +259,26 @@ export default function Home() {
             </div>
           </div>
           <div className="grid grid-cols-4 gap-10">
-            <img src="mockup1.png" className="object-contain mt-20" alt="" />
-            <img src="mockup1.png" className="object-contain mt-20" alt="" />
-            <img src="mockup1.png" className="object-contain mt-20" alt="" />
-            <img src="mockup1.png" className="object-contain mt-20" alt="" />
+            <img
+              src="iphoneStyle1.png"
+              className="object-contain mt-20"
+              alt=""
+            />
+            <img
+              src="iphoneStyle2.png"
+              className="object-contain mt-20"
+              alt=""
+            />
+            <img
+              src="iphoneStyle3.png"
+              className="object-contain mt-20"
+              alt=""
+            />
+            <img
+              src="iphoneStyle4.png"
+              className="object-contain mt-20"
+              alt=""
+            />
           </div>
         </div>
       </section>
