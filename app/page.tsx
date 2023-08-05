@@ -201,48 +201,48 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="max-w-7xl px-8 flex justify-between items-center gap-24">
+        <div className="max-w-7xl px-4 md:px-8 flex flex-col md:flex-row justify-between items-center gap-10 md:gap-24">
           <div className="flex flex-col flex-1 gap-8">
             <div className="flex flex-col gap-6 items-start">
               <div className="p-3 rounded-full border-8 bg-slate-400">
                 <ArrowRight />
               </div>
-              <div className="flex flex-col gap-4">
-                <p className="text-3xl font-semibold">
+              <div className="flex flex-col gap-2 md:gap-4">
+                <p className="text-2xl md:text-3xl font-semibold">
                   Manage your team with reports
                 </p>
-                <p className="text-lg">
+                <p className="text-base md:text-lg">
                   Measure what matters with Untitled’s easy-to-use reports. You
                   can filter, export, and drilldown on the data in a couple
                   clicks.
                 </p>
               </div>
             </div>
-            <div className="flex flex-col pl-4 gap-5">
+            <div className="flex flex-col pl-2 md:pl-4 gap-4 md:gap-5">
               <div className="flex gap-3 items-center">
                 <CheckCircle2 />
-                <p className="text-lg">
+                <p className="text-base md:text-lg">
                   Filter, export, and drilldown on the data quickly
                 </p>
               </div>
               <div className="flex gap-3 items-center">
                 <CheckCircle2 />
-                <p className="text-lg">
+                <p className="text-base md:text-lg">
                   Save, schedule, and automate reports to your inbox
                 </p>
               </div>
               <div className="flex gap-3 items-center">
                 <CheckCircle2 />
-                <p className="text-lg">
+                <p className="text-base md:text-lg">
                   Connect the tools you already use with 100+ integrations
                 </p>
               </div>
             </div>
           </div>
-          <div className="flex flex-1 min-h-[512px] relative">
+          <div className="flex flex-1 md:min-h-[512px] relative">
             <img
-              src="mock.png"
-              className="absolute h-full object-cover overflow-x-visible object-left"
+              src="ipad1.png"
+              className="md:absolute h-full object-cover overflow-x-visible object-left drop-shadow-xl"
               alt=""
             />
           </div>
