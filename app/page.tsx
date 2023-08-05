@@ -155,45 +155,45 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="max-w-7xl px-8 flex justify-between items-center gap-24">
-          <div className="flex flex-1 min-h-[512px] relative">
+        <div className="max-w-7xl px-4 md:px-8 flex flex-col md:flex-row justify-between items-center gap-10 md:gap-24">
+          <div className="flex flex-1 md:min-h-[512px] order-3 md:order-1 relative">
             <img
-              src="mock.png"
-              className="absolute h-full object-cover overflow-x-visible object-right"
+              src="ipad1.png"
+              className="md:absolute h-full object-cover overflow-x-visible object-right drop-shadow-xl"
               alt=""
             />
           </div>
-          <div className="flex flex-col flex-1 gap-8">
+          <div className="flex flex-col flex-1 order-2 gap-8">
             <div className="flex flex-col gap-6 items-start">
               <div className="p-3 rounded-full border-8 bg-slate-400">
                 <ArrowRight />
               </div>
-              <div className="flex flex-col gap-4">
-                <p className="text-3xl font-semibold">
+              <div className="flex flex-col gap-2 md:gap-4">
+                <p className="text-2xl md:text-3xl font-semibold">
                   Deliver instant answers
                 </p>
-                <p className="text-lg">
+                <p className="text-base md:text-lg">
                   An all-in-one customer service platform that helps you balance
                   everything your customers need to be happy.
                 </p>
               </div>
             </div>
-            <div className="flex flex-col pl-4 gap-5">
+            <div className="flex flex-col pl-2 md:pl-4 gap-4 md:gap-5">
               <div className="flex gap-3 items-center">
                 <CheckCircle2 />
-                <p className="text-lg">
+                <p className="text-base md:text-lg">
                   Keep your customers in the loop with live chat
                 </p>
               </div>
               <div className="flex gap-3 items-center">
                 <CheckCircle2 />
-                <p className="text-lg">
+                <p className="text-base md:text-lg">
                   Embed help articles right on your website
                 </p>
               </div>
               <div className="flex gap-3 items-center">
                 <CheckCircle2 />
-                <p className="text-lg">
+                <p className="text-base md:text-lg">
                   Customers never have to leave the page to find an answer
                 </p>
               </div>
@@ -250,7 +250,7 @@ export default function Home() {
       </section>
 
       <section className="max-w-7xl py-16 md:py-24 justify-center w-full">
-        <div className="px-4 md:px-8 flex flex-col">
+        <div className="px-4 md:px-8 flex flex-col gap-20">
           <div className="max-w-7xl px-4 md:px-8 flex justify-center">
             <div className="max-w-3xl flex flex-col gap-5 text-center">
               <p className="text-3xl md:text-4xl font-semibold">
@@ -261,25 +261,25 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="grid grid-cols-4 gap-10">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
             <img
               src="iphoneStyle1.png"
-              className="object-contain mt-20 hover:scale-105 transition-all duration-300"
+              className="object-contain hover:scale-105 transition-all duration-300"
               alt=""
             />
             <img
               src="iphoneStyle2.png"
-              className="object-contain mt-20 hover:scale-105 transition-all duration-300"
+              className="object-contain hover:scale-105 transition-all duration-300"
               alt=""
             />
             <img
               src="iphoneStyle3.png"
-              className="object-contain mt-20 hover:scale-105 transition-all duration-300"
+              className="object-contain hover:scale-105 transition-all duration-300"
               alt=""
             />
             <img
               src="iphoneStyle4.png"
-              className="object-contain mt-20 hover:scale-105 transition-all duration-300"
+              className="object-contain hover:scale-105 transition-all duration-300"
               alt=""
             />
           </div>
