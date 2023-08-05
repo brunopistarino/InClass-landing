@@ -58,10 +58,6 @@ export default function Home() {
               <h1 className="text-4xl md:text-6xl font-semibold">
                 All your academic life in one place
               </h1>
-              {/* <p className="text-xl">
-                Designed by marketers. Untitled gives you the guidance, data and
-                innovation you need to become a better marketer.
-              </p> */}
               <p className="text-lg md:text-xl">
                 For studentds by students. Designed to make you reach all show
                 goals in school and never forget classes, importat exams or
@@ -83,16 +79,18 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="flex flex-col py-24 gap-24">
-        <div className="max-w-7xl px-8 flex justify-center">
-          <div className="max-w-3xl flex flex-col gap-5 text-center">
+      <section className="flex flex-col py-16 md:py-24 gap-12 md:gap-24">
+        <div className="max-w-7xl px-4 md:px-8 flex justify-center">
+          <div className="max-w-3xl flex flex-col gap-4 md:gap-5 text-center">
             <div className="flex flex-col gap-3">
-              <p className="text-cyan-700 font-semibold">Features</p>
-              <p className="text-4xl font-semibold">
+              <p className="text-cyan-700 font-semibold text-sm md:text-base">
+                Features
+              </p>
+              <p className="text-3xl md:text-4xl font-semibold">
                 Analytics that feels like it’s from the future
               </p>
             </div>
-            <p className="text-xl">
+            <p className="text-lg md:text-xl">
               Powerful, self-serve product and growth analytics to help you
               convert, engage, and retain more users. Trusted by over 4,000
               startups.
@@ -100,43 +98,47 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="max-w-7xl px-8 flex justify-between items-center gap-24">
+        <div className="max-w-7xl px-4 md:px-8 flex flex-col md:flex-row justify-between items-center gap-10 md:gap-24">
           <div className="flex flex-col flex-1 gap-8">
             <div className="flex flex-col gap-6 items-start">
               <div className="p-3 rounded-full border-8 bg-slate-400">
                 <ArrowRight />
               </div>
-              <div className="flex flex-col gap-4">
-                <p className="text-3xl font-semibold">Share team inboxes</p>
-                <p className="text-lg">
+              <div className="flex flex-col gap-2 md:gap-4">
+                <p className="text-2xl md:text-3xl font-semibold">
+                  Share team inboxes
+                </p>
+                <p className="text-base md:text-lg">
                   Whether you have a team of 2 or 200, our shared team inboxes
                   keep everyone on the same page and in the loop.
                 </p>
               </div>
             </div>
-            <div className="flex flex-col pl-4 gap-5">
+            <div className="flex flex-col pl-2 md:pl-4 gap-4 md:gap-5">
               <div className="flex gap-3 items-center">
                 <CheckCircle2 />
-                <p className="text-lg">Leverage automation to move fast</p>
+                <p className="text-base md:text-lg">
+                  Leverage automation to move fast
+                </p>
               </div>
               <div className="flex gap-3 items-center">
                 <CheckCircle2 />
-                <p className="text-lg">
+                <p className="text-base md:text-lg">
                   Always give customers a human to chat to
                 </p>
               </div>
               <div className="flex gap-3 items-center">
                 <CheckCircle2 />
-                <p className="text-lg">
+                <p className="text-base md:text-lg">
                   Automate customer support and close leads faster
                 </p>
               </div>
             </div>
           </div>
-          <div className="flex flex-1 min-h-[512px] relative">
+          <div className="flex flex-1 md:min-h-[512px] relative">
             <img
-              src="mock.png"
-              className="absolute h-full object-cover overflow-x-visible object-left"
+              src="ipad.png"
+              className="md:absolute h-full object-cover overflow-x-visible object-left"
               alt=""
             />
           </div>
@@ -236,28 +238,34 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="max-w-7xl py-16 md:py-24 justify-center px-8 w-full flex flex-col">
-        <div className="max-w-7xl px-8 flex justify-center">
-          <div className="max-w-3xl flex flex-col gap-5 text-center">
-            <p className="text-4xl font-semibold">Give it your own style</p>
-            <p className="text-xl">
-              Everything you need to know about the product and billing.
-            </p>
+      <section className="max-w-7xl py-16 md:py-24 justify-center w-full">
+        <div className="px-4 md:px-8 flex flex-col">
+          <div className="max-w-7xl px-4 md:px-8 flex justify-center">
+            <div className="max-w-3xl flex flex-col gap-5 text-center">
+              <p className="text-3xl md:text-4xl font-semibold">
+                Give it your own style
+              </p>
+              <p className="text-base md:text-xl">
+                Everything you need to know about the product and billing.
+              </p>
+            </div>
           </div>
-        </div>
-        <div className="grid grid-cols-4 gap-10">
-          <img src="mockup1.png" className="object-contain mt-20" alt="" />
-          <img src="mockup1.png" className="object-contain mt-20" alt="" />
-          <img src="mockup1.png" className="object-contain mt-20" alt="" />
-          <img src="mockup1.png" className="object-contain mt-20" alt="" />
+          <div className="grid grid-cols-4 gap-10">
+            <img src="mockup1.png" className="object-contain mt-20" alt="" />
+            <img src="mockup1.png" className="object-contain mt-20" alt="" />
+            <img src="mockup1.png" className="object-contain mt-20" alt="" />
+            <img src="mockup1.png" className="object-contain mt-20" alt="" />
+          </div>
         </div>
       </section>
 
       <section className="flex flex-col py-16 md:py-24 gap-12 md:gap-24 w-full max-w-7xl">
         <div className="max-w-7xl px-4 md:px-8 flex justify-center">
           <div className="max-w-3xl flex flex-col gap-5 text-center">
-            <p className="text-4xl font-semibold">Frequently asked questions</p>
-            <p className="text-xl">
+            <p className="text-3xl md:text-4xl font-semibold">
+              Frequently asked questions
+            </p>
+            <p className="text-base md:text-xl">
               Everything you need to know about the product and billing.
             </p>
           </div>
@@ -279,7 +287,7 @@ export default function Home() {
         </div>
 
         <div className="max-w-7xl px-4 md:px-8 flex justify-center w-full">
-          <div className="p-8 bg-slate-100 rounded-2xl flex flex-col gap-8 items-center w-full">
+          <div className="py-8 px-5 md:px-8 bg-slate-100 rounded-2xl flex flex-col gap-8 items-center w-full">
             <div className="flex items-baseline">
               <img
                 src="luca2.png"
@@ -297,9 +305,9 @@ export default function Home() {
                 className="w-16 h-16 rounded-full border-2 border-white translate-x-[-16px]"
               />
             </div>
-            <div className="text-center">
+            <div className="text-center flex flex-col gap-2">
               <p className="text-xl font-semibold">Still have questions?</p>
-              <p className="text-lg">
+              <p className="md:text-lg">
                 Can’t find the answer you’re looking for? Please chat to our
                 friendly team.
               </p>

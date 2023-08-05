@@ -34,7 +34,13 @@ export default function Footer() {
         <div className=" flex pt-8 justify-between text-slate-400 border-t border-slate-400 flex-col sm:flex-row gap-6 md:gap-8">
           <p>© {new Date().getFullYear()} InClass. All rights reserved.</p>
           <div className="flex gap-6 justify-center">
-            <Instagram />
+            <a
+              href="https://www.instagram.com/inclassapp/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Instagram />
+            </a>
             <Facebook />
             <Twitter />
           </div>
