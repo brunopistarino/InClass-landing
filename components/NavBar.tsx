@@ -1,8 +1,8 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { Menu } from "lucide-react";
 import { useWindowScroll } from "@mantine/hooks";
+import NavBarSheet from "@/components/NavBarSheet";
 
 export default function NavBar() {
   const [scroll, scrollTo] = useWindowScroll();
@@ -21,25 +21,38 @@ export default function NavBar() {
           </div>
         </a>
         <div className="gap-2 hidden sm:flex">
-          <Button variant="ghost" className="font-semibold">
+          {/* <Button variant="ghost" className="font-semibold">
             Tutorials
-          </Button>
+          </Button> */}
           <a href="#features">
             <Button variant="ghost" className="font-semibold">
               Features
             </Button>
           </a>
-          <Button variant="ghost" className="font-semibold">
-            Contact
-          </Button>
+          <a href="#customization">
+            <Button variant="ghost" className="font-semibold">
+              Customize
+            </Button>
+          </a>
+          <a href="#contact">
+            <Button variant="ghost" className="font-semibold">
+              Contact
+            </Button>
+          </a>
+          <a href="#platforms">
+            <Button variant="ghost" className="font-semibold">
+              Platforms
+            </Button>
+          </a>
         </div>
-        <Button
+        {/* <Button
           variant="ghost"
           size="icon"
           className="sm:hidden flex justify-center"
         >
           <Menu />
-        </Button>
+        </Button> */}
+        <NavBarSheet />
       </div>
     </nav>
   );

@@ -1,4 +1,4 @@
-import { ArrowRight, CheckCircle2 } from "lucide-react";
+import { ArrowRight, CheckCircle2, CalendarDays } from "lucide-react";
 import {
   Accordion,
   AccordionContent,
@@ -57,7 +57,7 @@ export default function Home() {
               </a>
               <h1 className="text-4xl md:text-6xl font-semibold">
                 All your academic life{" "}
-                <span className="underline-offset-8 underline decoration-blue-600">
+                <span className="underline-offset-8 underline decoration-sky-600">
                   in one place
                 </span>
               </h1>
@@ -88,13 +88,13 @@ export default function Home() {
       </section>
 
       <section
-        className="flex flex-col py-16 md:py-24 gap-12 md:gap-24"
+        className="flex flex-col py-16 md:py-24 gap-12 md:gap-24 scroll-m-8"
         id="features"
       >
         <div className="max-w-7xl px-4 md:px-8 flex justify-center">
           <div className="max-w-3xl flex flex-col gap-4 md:gap-5 text-center">
             <div className="flex flex-col gap-3">
-              <p className="text-cyan-700 font-semibold text-sm md:text-base">
+              <p className="text-sky-700 font-semibold text-sm md:text-base">
                 Features
               </p>
               <p className="text-3xl md:text-4xl font-semibold">
@@ -112,8 +112,8 @@ export default function Home() {
         <div className="max-w-7xl px-4 md:px-8 flex flex-col md:flex-row justify-between items-center gap-10 md:gap-24">
           <div className="flex flex-col flex-1 gap-8">
             <div className="flex flex-col gap-6 items-start">
-              <div className="p-3 rounded-full border-8 bg-slate-400">
-                <ArrowRight />
+              <div className="p-3 rounded-full border-8 border-sky-100 bg-sky-200">
+                <CalendarDays className="text-sky-800" />
               </div>
               <div className="flex flex-col gap-2 md:gap-4">
                 <p className="text-2xl md:text-3xl font-semibold">
@@ -127,19 +127,19 @@ export default function Home() {
             </div>
             <div className="flex flex-col pl-2 md:pl-4 gap-4 md:gap-5">
               <div className="flex gap-3 items-center">
-                <CheckCircle2 />
+                <CheckCircle2 className="text-sky-800" />
                 <p className="text-base md:text-lg">
                   Leverage automation to move fast
                 </p>
               </div>
               <div className="flex gap-3 items-center">
-                <CheckCircle2 />
+                <CheckCircle2 className="text-sky-800" />
                 <p className="text-base md:text-lg">
                   Always give customers a human to chat to
                 </p>
               </div>
               <div className="flex gap-3 items-center">
-                <CheckCircle2 />
+                <CheckCircle2 className="text-sky-800" />
                 <p className="text-base md:text-lg">
                   Automate customer support and close leads faster
                 </p>
@@ -165,8 +165,8 @@ export default function Home() {
           </div>
           <div className="flex flex-col flex-1 order-2 gap-8">
             <div className="flex flex-col gap-6 items-start">
-              <div className="p-3 rounded-full border-8 bg-slate-400">
-                <ArrowRight />
+              <div className="p-3 rounded-full border-8 border-pink-100 bg-pink-200">
+                <ArrowRight className="text-pink-800" />
               </div>
               <div className="flex flex-col gap-2 md:gap-4">
                 <p className="text-2xl md:text-3xl font-semibold">
@@ -180,19 +180,19 @@ export default function Home() {
             </div>
             <div className="flex flex-col pl-2 md:pl-4 gap-4 md:gap-5">
               <div className="flex gap-3 items-center">
-                <CheckCircle2 />
+                <CheckCircle2 className="text-pink-800" />
                 <p className="text-base md:text-lg">
                   Keep your customers in the loop with live chat
                 </p>
               </div>
               <div className="flex gap-3 items-center">
-                <CheckCircle2 />
+                <CheckCircle2 className="text-pink-800" />
                 <p className="text-base md:text-lg">
                   Embed help articles right on your website
                 </p>
               </div>
               <div className="flex gap-3 items-center">
-                <CheckCircle2 />
+                <CheckCircle2 className="text-pink-800" />
                 <p className="text-base md:text-lg">
                   Customers never have to leave the page to find an answer
                 </p>
@@ -204,8 +204,8 @@ export default function Home() {
         <div className="max-w-7xl px-4 md:px-8 flex flex-col md:flex-row justify-between items-center gap-10 md:gap-24">
           <div className="flex flex-col flex-1 gap-8">
             <div className="flex flex-col gap-6 items-start">
-              <div className="p-3 rounded-full border-8 bg-slate-400">
-                <ArrowRight />
+              <div className="p-3 rounded-full border-8 border-amber-100 bg-amber-200">
+                <ArrowRight className="text-amber-800" />
               </div>
               <div className="flex flex-col gap-2 md:gap-4">
                 <p className="text-2xl md:text-3xl font-semibold">
@@ -220,19 +220,19 @@ export default function Home() {
             </div>
             <div className="flex flex-col pl-2 md:pl-4 gap-4 md:gap-5">
               <div className="flex gap-3 items-center">
-                <CheckCircle2 />
+                <CheckCircle2 className="text-amber-800" />
                 <p className="text-base md:text-lg">
                   Filter, export, and drilldown on the data quickly
                 </p>
               </div>
               <div className="flex gap-3 items-center">
-                <CheckCircle2 />
+                <CheckCircle2 className="text-amber-800" />
                 <p className="text-base md:text-lg">
                   Save, schedule, and automate reports to your inbox
                 </p>
               </div>
               <div className="flex gap-3 items-center">
-                <CheckCircle2 />
+                <CheckCircle2 className="text-amber-800" />
                 <p className="text-base md:text-lg">
                   Connect the tools you already use with 100+ integrations
                 </p>
@@ -249,7 +249,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="max-w-7xl py-16 md:py-24 justify-center w-full">
+      <section
+        className="max-w-7xl py-16 md:py-24 justify-center w-full scroll-m-8"
+        id="customization"
+      >
         <div className="px-4 md:px-8 flex flex-col gap-12 md:gap-24">
           <div className="max-w-7xl px-4 md:px-8 flex justify-center">
             <div className="max-w-3xl flex flex-col gap-5 text-center">
@@ -261,7 +264,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-10">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-10">
             <img
               src="iphoneStyle1.png"
               className="object-contain hover:scale-105 transition-all duration-300"
@@ -286,7 +289,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="flex flex-col py-16 md:py-24 gap-12 md:gap-24 w-full max-w-7xl">
+      <section
+        className="flex flex-col py-16 md:py-24 gap-12 md:gap-24 w-full max-w-7xl scroll-m-8"
+        id="contact"
+      >
         <div className="max-w-7xl px-4 md:px-8 flex justify-center">
           <div className="max-w-3xl flex flex-col gap-5 text-center">
             <p className="text-3xl md:text-4xl font-semibold">
@@ -344,7 +350,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="flex flex-col py-16 md:py-24 gap-12 md:gap-16 w-full max-w-7xl px-4 md:px-8">
+      <section
+        className="flex flex-col py-16 md:py-24 gap-12 md:gap-16 w-full max-w-7xl px-4 md:px-8 scroll-m-8"
+        id="platforms"
+      >
         <p className="text-4xl font-semibold">All our platforms</p>
         <div className="grid gap-6 md:gap-8 grid-cols-1 md:grid-cols-3">
           <div className="bg-slate-100 rounded-2xl h-60 flex flex-col justify-center items-center">
