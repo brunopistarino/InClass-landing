@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import { ArrowRight, CheckCircle2, CalendarDays } from "lucide-react";
 import {
   Accordion,
@@ -97,11 +99,11 @@ export default function Home() {
               <p className="text-sky-700 font-semibold text-sm md:text-base">
                 Features
               </p>
-              <p className="text-3xl md:text-4xl font-semibold">
+              <p className="text-3xl md:text-4xl font-semibold line-through">
                 Analytics that feels like it’s from the future
               </p>
             </div>
-            <p className="text-lg md:text-xl">
+            <p className="text-lg md:text-xl line-through">
               Powerful, self-serve product and growth analytics to help you
               convert, engage, and retain more users. Trusted by over 4,000
               startups.
@@ -117,11 +119,17 @@ export default function Home() {
               </div>
               <div className="flex flex-col gap-2 md:gap-4">
                 <p className="text-2xl md:text-3xl font-semibold">
-                  Share team inboxes
+                  Keep track of your schedule
                 </p>
-                <p className="text-base md:text-lg">
+                {/* <p className="text-base md:text-lg">
                   Whether you have a team of 2 or 200, our shared team inboxes
                   keep everyone on the same page and in the loop.
+                </p> */}
+                <p className="text-base md:text-lg">
+                  Personalize subjects with times, locations and teachers.
+                  Manage your academic calendar, assignments, and exams all in
+                  one place. Easily view daily classes and plan ahead with an
+                  intuitive interface.
                 </p>
               </div>
             </div>
@@ -129,19 +137,19 @@ export default function Home() {
               <div className="flex gap-3 items-center">
                 <CheckCircle2 className="text-sky-800" />
                 <p className="text-base md:text-lg">
-                  Leverage automation to move fast
+                  Add and edit your subjects with details and colors
                 </p>
               </div>
               <div className="flex gap-3 items-center">
                 <CheckCircle2 className="text-sky-800" />
                 <p className="text-base md:text-lg">
-                  Always give customers a human to chat to
+                  View your classes and plan ahead
                 </p>
               </div>
               <div className="flex gap-3 items-center">
                 <CheckCircle2 className="text-sky-800" />
                 <p className="text-base md:text-lg">
-                  Automate customer support and close leads faster
+                  See your calendar with all your tasks and events
                 </p>
               </div>
             </div>
@@ -170,11 +178,12 @@ export default function Home() {
               </div>
               <div className="flex flex-col gap-2 md:gap-4">
                 <p className="text-2xl md:text-3xl font-semibold">
-                  Deliver instant answers
+                  Get useful notifications
                 </p>
                 <p className="text-base md:text-lg">
-                  An all-in-one customer service platform that helps you balance
-                  everything your customers need to be happy.
+                  Never forget a class, assignment, or exam with timely and
+                  personalized notifications. Set your own preferences for when
+                  and how you want to be notified.
                 </p>
               </div>
             </div>
@@ -182,18 +191,18 @@ export default function Home() {
               <div className="flex gap-3 items-center">
                 <CheckCircle2 className="text-pink-800" />
                 <p className="text-base md:text-lg">
-                  Keep your customers in the loop with live chat
+                  Get notified for classes, assignments, and exams
                 </p>
               </div>
               <div className="flex gap-3 items-center">
                 <CheckCircle2 className="text-pink-800" />
                 <p className="text-base md:text-lg">
-                  Embed help articles right on your website
+                  Choose when and how to be notified
                 </p>
               </div>
               <div className="flex gap-3 items-center">
                 <CheckCircle2 className="text-pink-800" />
-                <p className="text-base md:text-lg">
+                <p className="text-base md:text-lg line-through">
                   Customers never have to leave the page to find an answer
                 </p>
               </div>
@@ -209,12 +218,12 @@ export default function Home() {
               </div>
               <div className="flex flex-col gap-2 md:gap-4">
                 <p className="text-2xl md:text-3xl font-semibold">
-                  Manage your team with reports
+                  Save assignments and exams
                 </p>
                 <p className="text-base md:text-lg">
-                  Measure what matters with Untitled’s easy-to-use reports. You
-                  can filter, export, and drilldown on the data in a couple
-                  clicks.
+                  Create and edit your assignments with due dates, priority
+                  levels, notes, and files. Sync your data across all your
+                  devices and access it anytime, anywhere.
                 </p>
               </div>
             </div>
@@ -222,19 +231,19 @@ export default function Home() {
               <div className="flex gap-3 items-center">
                 <CheckCircle2 className="text-amber-800" />
                 <p className="text-base md:text-lg">
-                  Filter, export, and drilldown on the data quickly
+                  Manage your assignments with dates, times and notes
                 </p>
               </div>
               <div className="flex gap-3 items-center">
                 <CheckCircle2 className="text-amber-800" />
-                <p className="text-base md:text-lg">
+                <p className="text-base md:text-lg line-through">
                   Save, schedule, and automate reports to your inbox
                 </p>
               </div>
               <div className="flex gap-3 items-center">
                 <CheckCircle2 className="text-amber-800" />
                 <p className="text-base md:text-lg">
-                  Connect the tools you already use with 100+ integrations
+                  Sync your data and access it anywhere
                 </p>
               </div>
             </div>
@@ -260,7 +269,7 @@ export default function Home() {
                 Give it your own style
               </p>
               <p className="text-base md:text-xl">
-                Everything you need to know about the product and billing.
+                Make InClass your own with themes, colors, and widgets.
               </p>
             </div>
           </div>
@@ -299,7 +308,7 @@ export default function Home() {
               Frequently asked questions
             </p>
             <p className="text-base md:text-xl">
-              Everything you need to know about the product and billing.
+              Everything you need to know about our app.
             </p>
           </div>
         </div>
@@ -308,10 +317,10 @@ export default function Home() {
           <Accordion type="single" collapsible className="w-full max-w-3xl">
             {faqs.map((faq, index) => (
               <AccordionItem key={index} value={`item-${index}`}>
-                <AccordionTrigger className="text-lg">
+                <AccordionTrigger className="text-lg line-through">
                   {faq.question}
                 </AccordionTrigger>
-                <AccordionContent className="text-base">
+                <AccordionContent className="text-base line-through">
                   {faq.answer}
                 </AccordionContent>
               </AccordionItem>
@@ -322,27 +331,52 @@ export default function Home() {
         <div className="max-w-7xl px-4 md:px-8 flex justify-center w-full">
           <div className="py-8 px-5 md:px-8 bg-slate-100 rounded-2xl flex flex-col gap-8 items-center w-full">
             <div className="flex items-baseline">
-              <img
-                src="luca2.png"
+              {/* <img
+                src="zoe2.png"
+                alt=""
+                className="w-16 h-16 rounded-full border-2 border-white translate-x-4"
+              /> */}
+              <Image
+                src="/zoe2.png"
+                height={64}
+                width={64}
                 alt=""
                 className="w-16 h-16 rounded-full border-2 border-white translate-x-4"
               />
-              <img
+              {/* <img
                 src="bruno.png"
                 alt=""
                 className="w-20 h-20 rounded-full border-2 border-white z-20"
+              /> */}
+              <Image
+                src="/bruno.png"
+                height={80}
+                width={80}
+                alt=""
+                className="w-20 h-20 rounded-full border-2 border-white z-20"
               />
-              <img
+              {/* <img
                 src="luca.png"
+                alt=""
+                className="w-16 h-16 rounded-full border-2 border-white translate-x-[-16px]"
+              /> */}
+              <Image
+                src="/luca.png"
+                height={64}
+                width={64}
                 alt=""
                 className="w-16 h-16 rounded-full border-2 border-white translate-x-[-16px]"
               />
             </div>
             <div className="text-center flex flex-col gap-2">
               <p className="text-xl font-semibold">Still have questions?</p>
-              <p className="md:text-lg">
+              {/* <p className="md:text-lg">
                 Can’t find the answer you’re looking for? Please chat to our
                 friendly team.
+              </p> */}
+              <p className="md:text-lg">
+                We love hearing from you. If you have any questions, feedback,
+                or suggestions, please contact us.
               </p>
             </div>
             <Button>Get in touch</Button>

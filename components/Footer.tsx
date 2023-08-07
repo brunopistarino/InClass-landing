@@ -10,7 +10,7 @@ export default function Footer() {
               <img src="appicon.png" className="h-12" alt="" />
               <p className="font-semibold text-2xl">InClass</p>
             </div>
-            <p>Banking technology that has your back.</p>
+            <p>All your academic life in one place.</p>
           </div>
           <div className="md:flex gap-3 md:gap-8 grid grid-cols-2">
             <p>Overview</p>

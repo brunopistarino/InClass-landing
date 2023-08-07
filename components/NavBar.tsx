@@ -25,22 +25,22 @@ export default function NavBar() {
             Tutorials
           </Button> */}
           <a href="#features">
-            <Button variant="ghost" className="font-semibold">
+            <Button variant="ghost" className="font-semibold text-base">
               Features
             </Button>
           </a>
           <a href="#customization">
-            <Button variant="ghost" className="font-semibold">
+            <Button variant="ghost" className="font-semibold text-base">
               Customize
             </Button>
           </a>
           <a href="#contact">
-            <Button variant="ghost" className="font-semibold">
+            <Button variant="ghost" className="font-semibold text-base">
               Contact
             </Button>
           </a>
           <a href="#platforms">
-            <Button variant="ghost" className="font-semibold">
+            <Button variant="ghost" className="font-semibold text-base">
               Platforms
             </Button>
           </a>
