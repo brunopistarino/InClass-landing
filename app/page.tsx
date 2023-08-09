@@ -64,8 +64,8 @@ export default function Home() {
                 </span>
               </h1>
               <p className="text-lg md:text-xl">
-                For studentds by students. Designed to make you reach all show
-                goals in school and never forget classes, importat exams or
+                For students by students. Designed to make you reach all your
+                goals in school and never forget classes, important exams or
                 assignments.
               </p>
             </div>
