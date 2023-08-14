@@ -18,22 +18,22 @@ import { Button } from "@/components/ui/button";
 export default function Home() {
   const faqs = [
     {
-      question: "Is there a free trial available?",
+      question: "Is the app free?",
       answer:
         "Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
     },
     {
-      question: "Can I change my plan later?",
+      question: "How do I set up my schedule?",
       answer:
         "Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
     },
     {
-      question: "What is your cancellation policy?",
+      question: "How do I change the colour of a class?",
       answer:
         "Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
     },
     {
-      question: "Can other info be added to an invoice?",
+      question: "How do I edit or delete subjects?",
       answer:
         "Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
     },
@@ -133,7 +133,12 @@ export default function Home() {
         </div>
 
         <div className="max-w-7xl px-4 md:px-8 flex flex-col md:flex-row justify-between items-center gap-10 md:gap-24">
-          <div className="flex flex-col flex-1 gap-8">
+          <div className="flex flex-col flex-1 gap-8 relative">
+            <img
+              src="scratches/flower.png"
+              className="absolute top-[-16px] md:top-[-50px] right-8 w-16 md:w-24"
+              alt=""
+            />
             <div className="flex flex-col gap-6 items-start">
               <div className="p-3 rounded-full border-8 border-sky-100 bg-sky-200">
                 <CalendarDays className="text-sky-800" />
@@ -185,95 +190,29 @@ export default function Home() {
         </div>
 
         <div className="max-w-7xl px-4 md:px-8 flex flex-col md:flex-row justify-between items-center gap-10 md:gap-24">
-          <div className="flex flex-1 md:min-h-[512px] order-3 md:order-1 relative">
+          <div className="flex-1 md:min-h-[512px] order-3 md:order-1 gap-6 md:gap-10 grid grid-cols-2">
             {/* <img
               src="ipad1.png"
-              className="md:absolute h-full object-cover overflow-x-visible object-right drop-shadow-xl"
+              className="md:absolute h-full object-cover overflow-x-visible object-left drop-shadow-xl"
               alt=""
             /> */}
-            {/* <img
-              src="notifications.png"
-              className=" h-full object-cover overflow-x-visible object-right drop-shadow-xl my-auto"
+            <img
+              src="iphoneStyle2.png"
+              className="object-contain drop-shadow-xl"
               alt=""
-            /> */}
-            <div className="flex flex-col justify-center w-full gap-4">
-              <div className="border rounded-3xl flex items-center gap-2 py-2 pl-1 pr-4 max-w-md">
-                <img src="appicon.png" className="h-14" alt="" />
-                <div className="w-full">
-                  <div className="flex justify-between items-end w-full">
-                    <p className="font-semibold">Matemática Discreta</p>
-                    <p className="text-sm text-gray-500">3 min</p>
-                  </div>
-                  <p>Your class starts in 15 minutes</p>
-                </div>
-              </div>
-
-              <div className="border rounded-3xl flex items-center ml-12 gap-2 py-2 pl-1 pr-4 max-w-md">
-                <img src="appicon.png" className="h-14" alt="" />
-                <div className="w-full">
-                  <div className="flex justify-between items-end w-full">
-                    <p className="font-semibold">Física II</p>
-                    <p className="text-sm text-gray-500">15 min</p>
-                  </div>
-                  <p>Your exam starts at 18:30 hs</p>
-                </div>
-              </div>
-
-              <div className="border rounded-3xl flex items-center ml-6 gap-2 py-2 pl-1 pr-4 max-w-md">
-                <img src="appicon.png" className="h-14" alt="" />
-                <div className="w-full">
-                  <div className="flex justify-between items-end w-full">
-                    <p className="font-semibold">3 tasks due today</p>
-                    <p className="text-sm text-gray-500">10 min</p>
-                  </div>
-                  <p className="line-through">
-                    Your class starts in 15 minutes
-                  </p>
-                </div>
-              </div>
-            </div>
+            />
+            <img
+              src="iphoneStyle2.png"
+              className="object-contain drop-shadow-xl"
+              alt=""
+            />
           </div>
-          <div className="flex flex-col flex-1 order-2 gap-8">
-            <div className="flex flex-col gap-6 items-start">
-              <div className="p-3 rounded-full border-8 border-pink-100 bg-pink-200">
-                <Bell className="text-pink-800" />
-              </div>
-              <div className="flex flex-col gap-2 md:gap-4">
-                <p className="text-2xl md:text-3xl font-semibold">
-                  Get useful notifications
-                </p>
-                <p className="text-base md:text-lg">
-                  Never forget a class, assignment, or exam with timely and
-                  personalized notifications. Set your own preferences for when
-                  and how you want to be notified.
-                </p>
-              </div>
-            </div>
-            <div className="flex flex-col pl-2 md:pl-4 gap-4 md:gap-5">
-              <div className="flex gap-3 items-center">
-                <CheckCircle2 className="text-pink-800" />
-                <p className="text-base md:text-lg">
-                  Get notified for classes, assignments, and exams
-                </p>
-              </div>
-              <div className="flex gap-3 items-center">
-                <CheckCircle2 className="text-pink-800" />
-                <p className="text-base md:text-lg">
-                  Choose when and how to be notified
-                </p>
-              </div>
-              <div className="flex gap-3 items-center">
-                <CheckCircle2 className="text-pink-800" />
-                <p className="text-base md:text-lg line-through">
-                  Customers never have to leave the page to find an answer
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="max-w-7xl px-4 md:px-8 flex flex-col md:flex-row justify-between items-center gap-10 md:gap-24">
-          <div className="flex flex-col flex-1 gap-8">
+          <div className="flex flex-col flex-1 order-2 gap-8 relative">
+            <img
+              src="scratches/flag.png"
+              className="absolute top-[-16px] md:top-[-50px] right-8 w-16 md:w-24"
+              alt=""
+            />
             <div className="flex flex-col gap-6 items-start">
               <div className="p-3 rounded-full border-8 border-amber-100 bg-amber-200">
                 <AlarmCheck className="text-amber-800" />
@@ -310,22 +249,98 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="flex-1 md:min-h-[512px] gap-8 grid grid-cols-2">
+        </div>
+
+        <div className="max-w-7xl px-4 md:px-8 flex flex-col md:flex-row justify-between items-center gap-10 md:gap-24">
+          <div className="flex flex-col flex-1 gap-8 relative">
+            <img
+              src="scratches/leaf2.png"
+              className="absolute top-[-16px] md:top-[-50px] right-8 w-14 md:w-20"
+              alt=""
+            />
+            <div className="flex flex-col gap-6 items-start">
+              <div className="p-3 rounded-full border-8 border-pink-100 bg-pink-200">
+                <Bell className="text-pink-800" />
+              </div>
+              <div className="flex flex-col gap-2 md:gap-4">
+                <p className="text-2xl md:text-3xl font-semibold">
+                  Get useful notifications
+                </p>
+                <p className="text-base md:text-lg">
+                  Never forget a class, assignment, or exam with timely and
+                  personalized notifications. Set your own preferences for when
+                  and how you want to be notified.
+                </p>
+              </div>
+            </div>
+            <div className="flex flex-col pl-2 md:pl-4 gap-4 md:gap-5">
+              <div className="flex gap-3 items-center">
+                <CheckCircle2 className="text-pink-800" />
+                <p className="text-base md:text-lg">
+                  Get notified for classes, assignments, and exams
+                </p>
+              </div>
+              <div className="flex gap-3 items-center">
+                <CheckCircle2 className="text-pink-800" />
+                <p className="text-base md:text-lg">
+                  Choose when and how to be notified
+                </p>
+              </div>
+              <div className="flex gap-3 items-center">
+                <CheckCircle2 className="text-pink-800" />
+                <p className="text-base md:text-lg line-through">
+                  Customers never have to leave the page to find an answer
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-1 md:min-h-[512px] relative">
             {/* <img
               src="ipad1.png"
-              className="md:absolute h-full object-cover overflow-x-visible object-left drop-shadow-xl"
+              className="md:absolute h-full object-cover overflow-x-visible object-right drop-shadow-xl"
               alt=""
             /> */}
-            <img
-              src="iphoneStyle2.png"
-              className="object-contain drop-shadow-xl"
+            {/* <img
+              src="notifications.png"
+              className=" h-full object-cover overflow-x-visible object-right drop-shadow-xl my-auto"
               alt=""
-            />
-            <img
-              src="iphoneStyle2.png"
-              className="object-contain drop-shadow-xl"
-              alt=""
-            />
+            /> */}
+            <div className="flex flex-col justify-center w-full gap-4">
+              <div className="border rounded-3xl flex items-center gap-2 py-2 pl-1 pr-4 max-w-md drop-shadow-xl bg-white">
+                <img src="appicon.png" className="h-14" alt="" />
+                <div className="w-full">
+                  <div className="flex justify-between items-end w-full">
+                    <p className="font-semibold">Matemática Discreta</p>
+                    <p className="text-sm text-gray-500">3 min</p>
+                  </div>
+                  <p>Your class starts in 15 minutes</p>
+                </div>
+              </div>
+
+              <div className="border rounded-3xl flex items-center ml-12 gap-2 py-2 pl-1 pr-4 max-w-md drop-shadow-xl bg-white">
+                <img src="appicon.png" className="h-14" alt="" />
+                <div className="w-full">
+                  <div className="flex justify-between items-end w-full">
+                    <p className="font-semibold">Física II</p>
+                    <p className="text-sm text-gray-500">15 min</p>
+                  </div>
+                  <p>Your exam starts at 18:30 hs</p>
+                </div>
+              </div>
+
+              <div className="border rounded-3xl flex items-center ml-6 gap-2 py-2 pl-1 pr-4 max-w-md drop-shadow-xl bg-white">
+                <img src="appicon.png" className="h-14" alt="" />
+                <div className="w-full">
+                  <div className="flex justify-between items-end w-full">
+                    <p className="font-semibold">3 tasks due today</p>
+                    <p className="text-sm text-gray-500">10 min</p>
+                  </div>
+                  <p className="line-through">
+                    Your class starts in 15 minutes
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -336,7 +351,12 @@ export default function Home() {
       >
         <div className="px-4 md:px-8 flex flex-col gap-12 md:gap-24">
           <div className="max-w-7xl px-4 md:px-8 flex justify-center">
-            <div className="max-w-3xl flex flex-col gap-5 text-center">
+            <div className="max-w-3xl flex flex-col gap-5 text-center relative">
+              <img
+                src="scratches/star.png"
+                className="absolute top-[-80px] md:top-[-100px] right-[-30px] md:right-[-100px] w-20 md:w-32"
+                alt=""
+              />
               <p className="text-3xl md:text-4xl font-semibold">
                 Give it your own style
               </p>
