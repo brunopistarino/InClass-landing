@@ -13,12 +13,27 @@ export default function Footer() {
             <p>All your academic life in one place.</p>
           </div>
           <div className="md:flex gap-3 md:gap-8 grid grid-cols-2">
-            <p>Overview</p>
+            <a href="#features" className="hover:underline underline-offset-4">
+              Features
+            </a>
+            <a
+              href="#customization"
+              className="hover:underline underline-offset-4"
+            >
+              Customize
+            </a>
+            <a href="#contact" className="hover:underline underline-offset-4">
+              Contact
+            </a>
+            <a href="#platforms" className="hover:underline underline-offset-4">
+              Platforms
+            </a>
+            {/* <p>Overview</p>
             <p>Features</p>
             <p>Pricing</p>
             <p>Careers</p>
             <p>Help</p>
-            <p>Privacy</p>
+            <p>Privacy</p> */}
           </div>
         </div>
         <div className="flex flex-col gap-4">

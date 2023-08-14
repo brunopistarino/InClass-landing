@@ -9,9 +9,9 @@ export default function NavBar() {
 
   return (
     <nav
-      className={`h-20 flex justify-center sticky top-0 backdrop-blur-xl ${
-        scroll.y > 0 && "border-b"
-      } z-50`}
+      className={`h-20 flex justify-center sticky top-0 z-50 ${
+        scroll.y > 0 && "border-b backdrop-blur-xl"
+      } `}
     >
       <div className="flex items-center max-w-7xl w-full justify-between px-4 md:px-8">
         <a href="">

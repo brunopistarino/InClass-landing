@@ -6,6 +6,18 @@ html {
   scroll-behavior: smooth;
 }
 
+
+.rainbow-underline {
+
+  background-image: linear-gradient(to right,
+      #61BB46, #FDB827, #F5821F, #E03A3E, #963D97, #009DDC);
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 100% 0.4rem;
+  transition: background-size 0.25s ease-in-out;
+  position: relative;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;

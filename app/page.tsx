@@ -1,6 +1,12 @@
 import Image from "next/image";
 
-import { ArrowRight, CheckCircle2, CalendarDays } from "lucide-react";
+import {
+  ArrowRight,
+  CheckCircle2,
+  CalendarDays,
+  Bell,
+  AlarmCheck,
+} from "lucide-react";
 import {
   Accordion,
   AccordionContent,
@@ -48,7 +54,7 @@ export default function Home() {
     <main className="flex flex-col md:mt-[-80px] items-center">
       <section className="min-h-screen flex justify-center w-full max-w-7xl px-4 md:px-8 py-16 md:py-24">
         <div className="flex justify-between w-full items-center flex-col md:flex-row gap-16">
-          <div className="max-w-2xl flex flex-col gap-8 md:gap-12">
+          <div className="max-w-2xl flex flex-col gap-8 md:gap-12 relative">
             <div className="flex flex-col gap-4 md:gap-6 items-start">
               <a href="">
                 <div className="border p-1 rounded-full flex items-center gap-2 pr-2">
@@ -59,7 +65,7 @@ export default function Home() {
               </a>
               <h1 className="text-4xl md:text-6xl font-semibold">
                 All your academic life{" "}
-                <span className="underline-offset-8 underline decoration-sky-600">
+                <span className="underline-offset-8 rainbow-underline">
                   in one place
                 </span>
               </h1>
@@ -76,13 +82,28 @@ export default function Home() {
               alt=""
             />
             {/* </a> */}
+            <img
+              src="scratches/wave.png"
+              className="w-60 absolute hidden md:block bottom-[-110px]"
+              alt=""
+            />
+            <img
+              src="scratches/curly-arrow.png"
+              className="absolute top-[-250px] hidden lg:block right-0 w-80"
+              alt=""
+            />
           </div>
-          <div className="flex flex-1 justify-center">
+          <div className="flex flex-1 justify-center relative w-full">
             {/* <img src="Blob.svg" className="" alt="" /> */}
             {/* <img src="mockup1.png" className="object-contain max-w-md" alt="" /> */}
             <img
               src="iphone3.png"
-              className="object-contain max-w-md max-h-[650px] drop-shadow-xl"
+              className="object-contain max-w-md max-h-[650px] drop-shadow-xl z-10"
+              alt=""
+            />
+            <img
+              src="scratches/circle.png"
+              className="absolute w-full top-0 bottom-0 my-auto"
               alt=""
             />
           </div>
@@ -156,7 +177,7 @@ export default function Home() {
           </div>
           <div className="flex flex-1 md:min-h-[512px] relative">
             <img
-              src="ipad1.png"
+              src="ipad-schedule.png"
               className="md:absolute h-full object-cover overflow-x-visible object-left drop-shadow-xl"
               alt=""
             />
@@ -165,16 +186,57 @@ export default function Home() {
 
         <div className="max-w-7xl px-4 md:px-8 flex flex-col md:flex-row justify-between items-center gap-10 md:gap-24">
           <div className="flex flex-1 md:min-h-[512px] order-3 md:order-1 relative">
-            <img
+            {/* <img
               src="ipad1.png"
               className="md:absolute h-full object-cover overflow-x-visible object-right drop-shadow-xl"
               alt=""
-            />
+            /> */}
+            {/* <img
+              src="notifications.png"
+              className=" h-full object-cover overflow-x-visible object-right drop-shadow-xl my-auto"
+              alt=""
+            /> */}
+            <div className="flex flex-col justify-center w-full gap-4">
+              <div className="border rounded-3xl flex items-center gap-2 py-2 pl-1 pr-4 max-w-md">
+                <img src="appicon.png" className="h-14" alt="" />
+                <div className="w-full">
+                  <div className="flex justify-between items-end w-full">
+                    <p className="font-semibold">Matemática Discreta</p>
+                    <p className="text-sm text-gray-500">3 min</p>
+                  </div>
+                  <p>Your class starts in 15 minutes</p>
+                </div>
+              </div>
+
+              <div className="border rounded-3xl flex items-center ml-12 gap-2 py-2 pl-1 pr-4 max-w-md">
+                <img src="appicon.png" className="h-14" alt="" />
+                <div className="w-full">
+                  <div className="flex justify-between items-end w-full">
+                    <p className="font-semibold">Física II</p>
+                    <p className="text-sm text-gray-500">15 min</p>
+                  </div>
+                  <p>Your exam starts at 18:30 hs</p>
+                </div>
+              </div>
+
+              <div className="border rounded-3xl flex items-center ml-6 gap-2 py-2 pl-1 pr-4 max-w-md">
+                <img src="appicon.png" className="h-14" alt="" />
+                <div className="w-full">
+                  <div className="flex justify-between items-end w-full">
+                    <p className="font-semibold">3 tasks due today</p>
+                    <p className="text-sm text-gray-500">10 min</p>
+                  </div>
+                  <p className="line-through">
+                    Your class starts in 15 minutes
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
           <div className="flex flex-col flex-1 order-2 gap-8">
             <div className="flex flex-col gap-6 items-start">
               <div className="p-3 rounded-full border-8 border-pink-100 bg-pink-200">
-                <ArrowRight className="text-pink-800" />
+                <Bell className="text-pink-800" />
               </div>
               <div className="flex flex-col gap-2 md:gap-4">
                 <p className="text-2xl md:text-3xl font-semibold">
@@ -214,7 +276,7 @@ export default function Home() {
           <div className="flex flex-col flex-1 gap-8">
             <div className="flex flex-col gap-6 items-start">
               <div className="p-3 rounded-full border-8 border-amber-100 bg-amber-200">
-                <ArrowRight className="text-amber-800" />
+                <AlarmCheck className="text-amber-800" />
               </div>
               <div className="flex flex-col gap-2 md:gap-4">
                 <p className="text-2xl md:text-3xl font-semibold">
@@ -248,10 +310,20 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="flex flex-1 md:min-h-[512px] relative">
-            <img
+          <div className="flex-1 md:min-h-[512px] gap-8 grid grid-cols-2">
+            {/* <img
               src="ipad1.png"
               className="md:absolute h-full object-cover overflow-x-visible object-left drop-shadow-xl"
+              alt=""
+            /> */}
+            <img
+              src="iphoneStyle2.png"
+              className="object-contain drop-shadow-xl"
+              alt=""
+            />
+            <img
+              src="iphoneStyle2.png"
+              className="object-contain drop-shadow-xl"
               alt=""
             />
           </div>
