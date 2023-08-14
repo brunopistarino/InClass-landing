@@ -294,7 +294,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="flex flex-1 md:min-h-[512px] relative">
+          <div className="flex flex-1 md:min-h-[512px] relative w-full justify-center max-w-lg">
             {/* <img
               src="ipad1.png"
               className="md:absolute h-full object-cover overflow-x-visible object-right drop-shadow-xl"
@@ -317,7 +317,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="border rounded-3xl flex items-center ml-12 gap-2 py-2 pl-1 pr-4 max-w-md drop-shadow-xl bg-white">
+              <div className="border rounded-3xl flex items-center sm:ml-12 gap-2 py-2 pl-1 pr-4 max-w-md drop-shadow-xl bg-white">
                 <img src="appicon.png" className="h-14" alt="" />
                 <div className="w-full">
                   <div className="flex justify-between items-end w-full">
@@ -328,16 +328,14 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="border rounded-3xl flex items-center ml-6 gap-2 py-2 pl-1 pr-4 max-w-md drop-shadow-xl bg-white">
+              <div className="border rounded-3xl flex items-center sm:ml-6 gap-2 py-2 pl-1 pr-4 max-w-md drop-shadow-xl bg-white">
                 <img src="appicon.png" className="h-14" alt="" />
                 <div className="w-full">
                   <div className="flex justify-between items-end w-full">
                     <p className="font-semibold">3 tasks due today</p>
                     <p className="text-sm text-gray-500">10 min</p>
                   </div>
-                  <p className="line-through">
-                    Your class starts in 15 minutes
-                  </p>
+                  <p>from 2 subjects</p>
                 </div>
               </div>
             </div>
@@ -395,7 +393,12 @@ export default function Home() {
         id="contact"
       >
         <div className="max-w-7xl px-4 md:px-8 flex justify-center">
-          <div className="max-w-3xl flex flex-col gap-5 text-center">
+          <div className="max-w-3xl flex flex-col gap-5 text-center relative">
+            <img
+              src="scratches/3-arrows.png"
+              className="absolute hidden sm:block top-[-60px] md:top-[-100px] left-0 left-[-80px] md:left-[-130px] w-24 md:w-36 rotate-[-170deg]"
+              alt=""
+            />
             <p className="text-3xl md:text-4xl font-semibold">
               Frequently asked questions
             </p>
@@ -421,7 +424,17 @@ export default function Home() {
         </div>
 
         <div className="max-w-7xl px-4 md:px-8 flex justify-center w-full">
-          <div className="py-8 px-5 md:px-8 bg-slate-100 rounded-2xl flex flex-col gap-8 items-center w-full">
+          <div className="py-8 px-5 md:px-8 bg-slate-100 rounded-2xl flex flex-col gap-8 items-center w-full relative">
+            <img
+              src="scratches/question-mark.png"
+              className="absolute top-[-16px] md:top-[-50px] right-4 md:right-8 w-24 md:w-36"
+              alt=""
+            />
+            <img
+              src="scratches/mail.png"
+              className="absolute bottom-[-30px] sm:bottom-[-50px] xl:bottom-4 left-4 xl:left-[-40px] w-24 md:w-36"
+              alt=""
+            />
             <div className="flex items-baseline">
               {/* <img
                 src="zoe2.png"
@@ -477,9 +490,19 @@ export default function Home() {
       </section>
 
       <section
-        className="flex flex-col py-16 md:py-24 gap-12 md:gap-16 w-full max-w-7xl px-4 md:px-8 scroll-m-8"
+        className="flex flex-col py-16 md:py-24 gap-12 md:gap-16 w-full max-w-7xl px-4 md:px-8 scroll-m-8 relative"
         id="platforms"
       >
+        <img
+          src="scratches/fire.png"
+          className="absolute w-24 sm:w-36 bottom-2 left-2"
+          alt=""
+        />
+        <img
+          src="scratches/leaf1.png"
+          className="absolute w-20 sm:w-28 bottom-2 right-2"
+          alt=""
+        />
         <p className="text-4xl font-semibold">All our platforms</p>
         <div className="grid gap-6 md:gap-8 grid-cols-1 md:grid-cols-3">
           <div className="bg-slate-100 rounded-2xl h-60 flex flex-col justify-center items-center">
