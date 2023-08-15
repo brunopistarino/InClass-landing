@@ -98,7 +98,7 @@ export default function Home() {
             {/* <img src="mockup1.png" className="object-contain max-w-md" alt="" /> */}
             <img
               src="iphone3.png"
-              className="object-contain max-w-md max-h-[650px] drop-shadow-xl z-10"
+              className="object-contain max-w-md max-h-[650px] drop-shadow-xl z-10 hover:scale-105 transition-all duration-300"
               alt=""
             />
             <img
@@ -183,27 +183,27 @@ export default function Home() {
           <div className="flex flex-1 md:min-h-[512px] relative">
             <img
               src="ipad-schedule.png"
-              className="md:absolute h-full object-cover overflow-x-visible object-left drop-shadow-xl"
+              className="md:absolute h-full object-cover overflow-x-visible object-left drop-shadow-xl hover:scale-105 transition-all duration-300"
               alt=""
             />
           </div>
         </div>
 
         <div className="max-w-7xl px-4 md:px-8 flex flex-col md:flex-row justify-between items-center gap-10 md:gap-24">
-          <div className="flex-1 md:min-h-[512px] order-3 md:order-1 gap-6 md:gap-10 grid grid-cols-2">
+          <div className="flex-1 md:min-h-[512px] order-3 md:order-1 gap-4 md:gap-8 grid grid-cols-2">
             {/* <img
               src="ipad1.png"
               className="md:absolute h-full object-cover overflow-x-visible object-left drop-shadow-xl"
               alt=""
             /> */}
             <img
-              src="iphoneStyle2.png"
-              className="object-contain drop-shadow-xl"
+              src="mockups/iphone-exams.png"
+              className="object-contain drop-shadow-xl hover:scale-105 transition-all duration-300"
               alt=""
             />
             <img
-              src="iphoneStyle2.png"
-              className="object-contain drop-shadow-xl"
+              src="mockups/iphone-tasks.png"
+              className="object-contain drop-shadow-xl hover:scale-105 transition-all duration-300"
               alt=""
             />
           </div>
@@ -306,34 +306,34 @@ export default function Home() {
               alt=""
             /> */}
             <div className="flex flex-col justify-center w-full gap-4">
-              <div className="border rounded-3xl flex items-center gap-2 py-2 pl-1 pr-4 max-w-md drop-shadow-xl bg-white">
+              <div className="border rounded-3xl flex items-center gap-2 py-2 pl-1 pr-4 max-w-md drop-shadow-xl bg-white hover:scale-105 transition-all duration-300">
                 <img src="appicon.png" className="h-14" alt="" />
                 <div className="w-full">
                   <div className="flex justify-between items-end w-full">
                     <p className="font-semibold">Matemática Discreta</p>
-                    <p className="text-sm text-gray-500">3 min</p>
+                    <p className="text-sm text-gray-500">6m ago</p>
                   </div>
                   <p>Your class starts in 15 minutes</p>
                 </div>
               </div>
 
-              <div className="border rounded-3xl flex items-center sm:ml-12 gap-2 py-2 pl-1 pr-4 max-w-md drop-shadow-xl bg-white">
+              <div className="border rounded-3xl flex items-center sm:ml-12 gap-2 py-2 pl-1 pr-4 max-w-md drop-shadow-xl bg-white hover:scale-105 transition-all duration-300">
                 <img src="appicon.png" className="h-14" alt="" />
                 <div className="w-full">
                   <div className="flex justify-between items-end w-full">
                     <p className="font-semibold">Física II</p>
-                    <p className="text-sm text-gray-500">15 min</p>
+                    <p className="text-sm text-gray-500">24m ago</p>
                   </div>
                   <p>Your exam starts at 18:30 hs</p>
                 </div>
               </div>
 
-              <div className="border rounded-3xl flex items-center sm:ml-6 gap-2 py-2 pl-1 pr-4 max-w-md drop-shadow-xl bg-white">
+              <div className="border rounded-3xl flex items-center sm:ml-6 gap-2 py-2 pl-1 pr-4 max-w-md drop-shadow-xl bg-white hover:scale-105 transition-all duration-300">
                 <img src="appicon.png" className="h-14" alt="" />
                 <div className="w-full">
                   <div className="flex justify-between items-end w-full">
                     <p className="font-semibold">3 tasks due today</p>
-                    <p className="text-sm text-gray-500">10 min</p>
+                    <p className="text-sm text-gray-500">57m ago</p>
                   </div>
                   <p>from 2 subjects</p>
                 </div>
@@ -352,7 +352,7 @@ export default function Home() {
             <div className="max-w-3xl flex flex-col gap-5 text-center relative">
               <img
                 src="scratches/star.png"
-                className="absolute top-[-80px] md:top-[-100px] right-[-30px] md:right-[-100px] w-20 md:w-32"
+                className="absolute top-[-80px] md:top-[-100px] right-[-20px] md:right-[-100px] w-20 md:w-32"
                 alt=""
               />
               <p className="text-3xl md:text-4xl font-semibold">
@@ -365,22 +365,22 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-10">
             <img
-              src="iphoneStyle1.png"
+              src="mockups/iphone-style-1.png"
               className="object-contain hover:scale-105 transition-all duration-300"
               alt=""
             />
             <img
-              src="iphoneStyle2.png"
+              src="mockups/iphone-style-2.png"
               className="object-contain hover:scale-105 transition-all duration-300"
               alt=""
             />
             <img
-              src="iphoneStyle3.png"
+              src="mockups/iphone-style-3.png"
               className="object-contain hover:scale-105 transition-all duration-300"
               alt=""
             />
             <img
-              src="iphoneStyle4.png"
+              src="mockups/iphone-style-4.png"
               className="object-contain hover:scale-105 transition-all duration-300"
               alt=""
             />
@@ -396,7 +396,7 @@ export default function Home() {
           <div className="max-w-3xl flex flex-col gap-5 text-center relative">
             <img
               src="scratches/3-arrows.png"
-              className="absolute hidden sm:block top-[-60px] md:top-[-100px] left-0 left-[-80px] md:left-[-130px] w-24 md:w-36 rotate-[-170deg]"
+              className="absolute dm:top-[-60px] md:top-[-100px] left-6 top-[-90px] sm:left-[-80px] md:left-[-130px] w-24 md:w-36 rotate-[240deg] sm:rotate-[-170deg]"
               alt=""
             />
             <p className="text-3xl md:text-4xl font-semibold">
@@ -436,11 +436,6 @@ export default function Home() {
               alt=""
             />
             <div className="flex items-baseline">
-              {/* <img
-                src="zoe2.png"
-                alt=""
-                className="w-16 h-16 rounded-full border-2 border-white translate-x-4"
-              /> */}
               <Image
                 src="/zoe2.png"
                 height={64}
@@ -448,11 +443,6 @@ export default function Home() {
                 alt=""
                 className="w-16 h-16 rounded-full border-2 border-white translate-x-4"
               />
-              {/* <img
-                src="bruno.png"
-                alt=""
-                className="w-20 h-20 rounded-full border-2 border-white z-20"
-              /> */}
               <Image
                 src="/bruno.png"
                 height={80}
@@ -460,11 +450,6 @@ export default function Home() {
                 alt=""
                 className="w-20 h-20 rounded-full border-2 border-white z-20"
               />
-              {/* <img
-                src="luca.png"
-                alt=""
-                className="w-16 h-16 rounded-full border-2 border-white translate-x-[-16px]"
-              /> */}
               <Image
                 src="/luca.png"
                 height={64}
@@ -475,10 +460,6 @@ export default function Home() {
             </div>
             <div className="text-center flex flex-col gap-2">
               <p className="text-xl font-semibold">Still have questions?</p>
-              {/* <p className="md:text-lg">
-                Can’t find the answer you’re looking for? Please chat to our
-                friendly team.
-              </p> */}
               <p className="md:text-lg">
                 We love hearing from you. If you have any questions, feedback,
                 or suggestions, please contact us.
@@ -505,11 +486,18 @@ export default function Home() {
         />
         <p className="text-4xl font-semibold">All our platforms</p>
         <div className="grid gap-6 md:gap-8 grid-cols-1 md:grid-cols-3">
+          <a href="">
+            <div className="bg-slate-100 rounded-2xl h-60 flex flex-col justify-center items-center group">
+              <p className="z-10 text-lg font-medium group-hover:font-semibold group-hover:text-xl transition-all">
+                iPhone / iPad / macOS
+              </p>
+              <p className="absolute font-black text-5xl text-white text-center group-hover:opacity-50 transition-all">
+                AVAILABLE
+              </p>
+            </div>
+          </a>
           <div className="bg-slate-100 rounded-2xl h-60 flex flex-col justify-center items-center">
-            <p>iPhone / iPad</p>
-          </div>
-          <div className="bg-slate-100 rounded-2xl h-60 flex flex-col justify-center items-center">
-            <p className="z-10">mac</p>
+            <p className="z-10 text-lg font-medium">macOS native</p>
             <p className="absolute font-black text-5xl text-white text-center">
               COMING
               <br />
@@ -517,7 +505,7 @@ export default function Home() {
             </p>
           </div>
           <div className="bg-slate-100 rounded-2xl h-60 flex flex-col justify-center items-center">
-            <p className="z-10">web</p>
+            <p className="z-10 text-lg font-medium">web</p>
             <p className="absolute font-black text-5xl text-white text-center">
               COMING
               <br />
