@@ -116,7 +116,12 @@ export default function Home() {
       >
         <div className="max-w-7xl px-4 md:px-8 flex justify-center">
           <div className="max-w-3xl flex flex-col gap-4 md:gap-5 text-center">
-            <div className="flex flex-col gap-3">
+            <div className="flex flex-col gap-3 relative">
+              <img
+                src="scratches/cloud.png"
+                className="absolute top-[-80px] md:top-[-120px] left-8 md:left-auto md:right-32 w-32 md:w-48"
+                alt=""
+              />
               <p className="text-sky-700 font-semibold text-sm md:text-base">
                 Features
               </p>
@@ -182,7 +187,7 @@ export default function Home() {
           </div>
           <div className="flex flex-1 md:min-h-[512px] relative">
             <img
-              src="ipad-schedule.png"
+              src="mockups/ipad-schedule.png"
               className="md:absolute h-full object-cover overflow-x-visible object-left drop-shadow-xl hover:scale-105 transition-all duration-300"
               alt=""
             />

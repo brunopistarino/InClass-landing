@@ -53,6 +53,11 @@ export default function NavBarSheet() {
             </a>
           </SheetClose>
         </div>
+        <img
+          src="scratches/fire.png"
+          className="absolute w-28 bottom-4 left-8"
+          alt=""
+        />
       </SheetContent>
     </Sheet>
   );
