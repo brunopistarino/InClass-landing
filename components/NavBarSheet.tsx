@@ -25,28 +25,28 @@ export default function NavBarSheet() {
         </SheetHeader>
         <div className="flex flex-col gap-2 mt-12">
           <SheetClose asChild>
-            <a href="#features">
+            <a href="/#features">
               <Button variant="link" className="font-semibold">
                 Features
               </Button>
             </a>
           </SheetClose>
           <SheetClose asChild>
-            <a href="#customization">
+            <a href="/#customization">
               <Button variant="link" className="font-semibold">
                 Customize
               </Button>
             </a>
           </SheetClose>
           <SheetClose asChild>
-            <a href="#contact">
+            <a href="/#contact">
               <Button variant="link" className="font-semibold">
                 Contact
               </Button>
             </a>
           </SheetClose>
           <SheetClose asChild>
-            <a href="#platforms">
+            <a href="/#platforms">
               <Button variant="link" className="font-semibold">
                 Platforms
               </Button>
