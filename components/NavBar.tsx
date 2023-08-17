@@ -14,9 +14,9 @@ export default function NavBar() {
       } `}
     >
       <div className="flex items-center max-w-7xl w-full justify-between px-4 md:px-8">
-        <a href="">
+        <a href="/">
           <div className="flex items-center gap-4">
-            <img src="appicon.png" className="h-12" alt="" />
+            <img src="/appicon.png" className="h-12" alt="" />
             <p className="font-semibold text-2xl">InClass</p>
           </div>
         </a>

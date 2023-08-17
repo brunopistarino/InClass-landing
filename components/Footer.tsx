@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="flex flex-col gap-8 w-full">
           <div className="flex flex-col gap-6 md:gap-8">
             <div className="flex items-center gap-4">
-              <img src="appicon.png" className="h-12" alt="" />
+              <img src="/appicon.png" className="h-12" alt="" />
               <p className="font-semibold text-2xl">InClass</p>
             </div>
             <p>All your academic life in one place.</p>
@@ -42,7 +42,7 @@ export default function Footer() {
         <div className="flex flex-col gap-4">
           <p>Get the app</p>
           <img
-            src="appStoreBadge.svg"
+            src="/appStoreBadge.svg"
             className="w-[160px] mx-auto md:mx-0"
             alt=""
           />

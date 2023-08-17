@@ -77,18 +77,18 @@ export default function Home() {
             </div>
             {/* <a href=""> */}
             <img
-              src="appStoreBadge.svg"
+              src="/appStoreBadge.svg"
               className="w-[160px] mx-auto md:mx-0"
               alt=""
             />
             {/* </a> */}
             <img
-              src="scratches/wave.png"
+              src="/scratches/wave.png"
               className="w-60 absolute hidden md:block bottom-[-110px]"
               alt=""
             />
             <img
-              src="scratches/curly-arrow.png"
+              src="/scratches/curly-arrow.png"
               className="absolute top-[-250px] hidden lg:block right-0 w-80"
               alt=""
             />
@@ -97,12 +97,12 @@ export default function Home() {
             {/* <img src="Blob.svg" className="" alt="" /> */}
             {/* <img src="mockup1.png" className="object-contain max-w-md" alt="" /> */}
             <img
-              src="iphone3.png"
+              src="/iphone3.png"
               className="object-contain max-w-md max-h-[650px] drop-shadow-xl z-10 hover:scale-105 transition-all duration-300"
               alt=""
             />
             <img
-              src="scratches/circle.png"
+              src="/scratches/circle.png"
               className="absolute w-full top-0 bottom-0 my-auto"
               alt=""
             />
@@ -118,7 +118,7 @@ export default function Home() {
           <div className="max-w-3xl flex flex-col gap-4 md:gap-5 text-center">
             <div className="flex flex-col gap-3 relative">
               <img
-                src="scratches/cloud.png"
+                src="/scratches/cloud.png"
                 className="absolute top-[-80px] md:top-[-120px] left-8 md:left-auto md:right-32 w-32 md:w-48"
                 alt=""
               />
@@ -140,7 +140,7 @@ export default function Home() {
         <div className="max-w-7xl px-4 md:px-8 flex flex-col md:flex-row justify-between items-center gap-10 md:gap-24">
           <div className="flex flex-col flex-1 gap-8 relative">
             <img
-              src="scratches/flower.png"
+              src="/scratches/flower.png"
               className="absolute top-[-16px] md:top-[-50px] right-8 w-16 md:w-24"
               alt=""
             />
@@ -187,7 +187,7 @@ export default function Home() {
           </div>
           <div className="flex flex-1 md:min-h-[512px] relative">
             <img
-              src="mockups/ipad-schedule.png"
+              src="/mockups/ipad-schedule.png"
               className="md:absolute h-full object-cover overflow-x-visible object-left drop-shadow-xl hover:scale-105 transition-all duration-300"
               alt=""
             />
@@ -202,19 +202,19 @@ export default function Home() {
               alt=""
             /> */}
             <img
-              src="mockups/iphone-exams.png"
+              src="/mockups/iphone-exams.png"
               className="object-contain drop-shadow-xl hover:scale-105 transition-all duration-300"
               alt=""
             />
             <img
-              src="mockups/iphone-tasks.png"
+              src="/mockups/iphone-tasks.png"
               className="object-contain drop-shadow-xl hover:scale-105 transition-all duration-300"
               alt=""
             />
           </div>
           <div className="flex flex-col flex-1 order-2 gap-8 relative">
             <img
-              src="scratches/flag.png"
+              src="/scratches/flag.png"
               className="absolute top-[-16px] md:top-[-50px] right-8 w-16 md:w-24"
               alt=""
             />
@@ -259,7 +259,7 @@ export default function Home() {
         <div className="max-w-7xl px-4 md:px-8 flex flex-col md:flex-row justify-between items-center gap-10 md:gap-24">
           <div className="flex flex-col flex-1 gap-8 relative">
             <img
-              src="scratches/leaf2.png"
+              src="/scratches/leaf2.png"
               className="absolute top-[-16px] md:top-[-50px] right-8 w-14 md:w-20"
               alt=""
             />
@@ -312,7 +312,7 @@ export default function Home() {
             /> */}
             <div className="flex flex-col justify-center w-full gap-4">
               <div className="border rounded-3xl flex items-center gap-2 py-2 pl-1 pr-4 max-w-md drop-shadow-xl bg-white hover:scale-105 transition-all duration-300">
-                <img src="appicon.png" className="h-14" alt="" />
+                <img src="/appicon.png" className="h-14" alt="" />
                 <div className="w-full">
                   <div className="flex justify-between items-end w-full">
                     <p className="font-semibold">Matemática Discreta</p>
@@ -323,7 +323,7 @@ export default function Home() {
               </div>
 
               <div className="border rounded-3xl flex items-center sm:ml-12 gap-2 py-2 pl-1 pr-4 max-w-md drop-shadow-xl bg-white hover:scale-105 transition-all duration-300">
-                <img src="appicon.png" className="h-14" alt="" />
+                <img src="/appicon.png" className="h-14" alt="" />
                 <div className="w-full">
                   <div className="flex justify-between items-end w-full">
                     <p className="font-semibold">Física II</p>
@@ -334,7 +334,7 @@ export default function Home() {
               </div>
 
               <div className="border rounded-3xl flex items-center sm:ml-6 gap-2 py-2 pl-1 pr-4 max-w-md drop-shadow-xl bg-white hover:scale-105 transition-all duration-300">
-                <img src="appicon.png" className="h-14" alt="" />
+                <img src="/appicon.png" className="h-14" alt="" />
                 <div className="w-full">
                   <div className="flex justify-between items-end w-full">
                     <p className="font-semibold">3 tasks due today</p>
@@ -356,7 +356,7 @@ export default function Home() {
           <div className="max-w-7xl px-4 md:px-8 flex justify-center">
             <div className="max-w-3xl flex flex-col gap-5 text-center relative">
               <img
-                src="scratches/star.png"
+                src="/scratches/star.png"
                 className="absolute top-[-80px] md:top-[-100px] right-[-20px] md:right-[-100px] w-20 md:w-32"
                 alt=""
               />
@@ -370,22 +370,22 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-10">
             <img
-              src="mockups/iphone-style-1.png"
+              src="/mockups/iphone-style-1.png"
               className="object-contain hover:scale-105 transition-all duration-300"
               alt=""
             />
             <img
-              src="mockups/iphone-style-2.png"
+              src="/mockups/iphone-style-2.png"
               className="object-contain hover:scale-105 transition-all duration-300"
               alt=""
             />
             <img
-              src="mockups/iphone-style-3.png"
+              src="/mockups/iphone-style-3.png"
               className="object-contain hover:scale-105 transition-all duration-300"
               alt=""
             />
             <img
-              src="mockups/iphone-style-4.png"
+              src="/mockups/iphone-style-4.png"
               className="object-contain hover:scale-105 transition-all duration-300"
               alt=""
             />
@@ -400,7 +400,7 @@ export default function Home() {
         <div className="max-w-7xl px-4 md:px-8 flex justify-center">
           <div className="max-w-3xl flex flex-col gap-5 text-center relative">
             <img
-              src="scratches/3-arrows.png"
+              src="/scratches/3-arrows.png"
               className="absolute dm:top-[-60px] md:top-[-100px] left-6 top-[-90px] sm:left-[-80px] md:left-[-130px] w-24 md:w-36 rotate-[240deg] sm:rotate-[-170deg]"
               alt=""
             />
@@ -431,12 +431,12 @@ export default function Home() {
         <div className="max-w-7xl px-4 md:px-8 flex justify-center w-full">
           <div className="py-8 px-5 md:px-8 bg-slate-100 rounded-2xl flex flex-col gap-8 items-center w-full relative">
             <img
-              src="scratches/question-mark.png"
+              src="/scratches/question-mark.png"
               className="absolute top-[-16px] md:top-[-50px] right-4 md:right-8 w-24 md:w-36"
               alt=""
             />
             <img
-              src="scratches/mail.png"
+              src="/scratches/mail.png"
               className="absolute bottom-[-30px] sm:bottom-[-50px] xl:bottom-4 left-4 xl:left-[-40px] w-24 md:w-36"
               alt=""
             />
@@ -480,12 +480,12 @@ export default function Home() {
         id="platforms"
       >
         <img
-          src="scratches/fire.png"
+          src="/scratches/fire.png"
           className="absolute w-24 sm:w-36 bottom-2 left-2"
           alt=""
         />
         <img
-          src="scratches/leaf1.png"
+          src="/scratches/leaf1.png"
           className="absolute w-20 sm:w-28 bottom-2 right-2"
           alt=""
         />
