@@ -125,14 +125,14 @@ export default function Home() {
               <p className="text-sky-700 font-semibold text-sm md:text-base">
                 Features
               </p>
-              <p className="text-3xl md:text-4xl font-semibold line-through">
-                Analytics that feels like it’s from the future
+              <p className="text-3xl md:text-4xl font-semibold">
+                Always late for class?
               </p>
             </div>
-            <p className="text-lg md:text-xl line-through">
-              Powerful, self-serve product and growth analytics to help you
-              convert, engage, and retain more users. Trusted by over 4,000
-              startups.
+            <p className="text-lg md:text-xl">
+              Don´t worry we got you, InClass has a feature for everything, from
+              the exact time your class starts to personalized reminders so you
+              can choose when to be reminded for a class.
             </p>
           </div>
         </div>
