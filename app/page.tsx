@@ -23,12 +23,12 @@ export default function Home() {
         "Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
     },
     {
-      question: "How do I set up my schedule?",
+      question: "En que dispositivos funciona?",
       answer:
         "Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
     },
     {
-      question: "How do I change the colour of a class?",
+      question: "En que paises está dispoible?",
       answer:
         "Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
     },
@@ -54,7 +54,7 @@ export default function Home() {
     <main className="flex flex-col md:mt-[-80px] items-center">
       <section className="min-h-screen flex justify-center w-full max-w-7xl px-4 md:px-8 py-16 md:py-24">
         <div className="flex justify-between w-full items-center flex-col md:flex-row gap-16">
-          <div className="max-w-2xl flex flex-col gap-8 md:gap-12 relative">
+          <div className="max-w-xl flex flex-col gap-8 md:gap-12 relative">
             <div className="flex flex-col gap-4 md:gap-6 items-start">
               <a href="">
                 <div className="border p-1 rounded-full flex items-center gap-2 pr-2">
@@ -70,10 +70,15 @@ export default function Home() {
                 </span>
               </h1>
               <p className="text-lg md:text-xl">
+              For students by students. Keep all your school life organized in one app, assignments, classes, exams and more!
+                
+              </p>
+              {/* <p className="text-lg md:text-xl">
+              Designed by students for students. Keep all your school life organized in one app, assignments, classes, exams and more!
                 For students by students. Designed to make you reach all your
                 goals in school and never forget classes, important exams or
                 assignments.
-              </p>
+              </p> */}
             </div>
             {/* <a href=""> */}
             <img
@@ -224,12 +229,10 @@ export default function Home() {
               </div>
               <div className="flex flex-col gap-2 md:gap-4">
                 <p className="text-2xl md:text-3xl font-semibold">
-                  Save assignments and exams
+                Create, Save, and Sync
                 </p>
                 <p className="text-base md:text-lg">
-                  Create and edit your assignments with due dates, priority
-                  levels, notes, and files. Sync your data across all your
-                  devices and access it anytime, anywhere.
+                Create all your tasks with due dates,notes and files, Save it and Sync your data across all your devices and access it anytime, anywhere.
                 </p>
               </div>
             </div>
@@ -272,9 +275,7 @@ export default function Home() {
                   Get useful notifications
                 </p>
                 <p className="text-base md:text-lg">
-                  Never forget a class, assignment, or exam with timely and
-                  personalized notifications. Set your own preferences for when
-                  and how you want to be notified.
+                Have you ever forgotten about an important deadline? Say no more! with InClass you can set your own preferences for when and how you want to be notified.
                 </p>
               </div>
             </div>
@@ -282,19 +283,19 @@ export default function Home() {
               <div className="flex gap-3 items-center">
                 <CheckCircle2 className="text-pink-800" />
                 <p className="text-base md:text-lg">
-                  Get notified for classes, assignments, and exams
+                Get notifications before your classes, exams, or tasks.
                 </p>
               </div>
               <div className="flex gap-3 items-center">
                 <CheckCircle2 className="text-pink-800" />
                 <p className="text-base md:text-lg">
-                  Choose when and how to be notified
+                Start your day with all things you have to do, in just one tap.
                 </p>
               </div>
               <div className="flex gap-3 items-center">
                 <CheckCircle2 className="text-pink-800" />
-                <p className="text-base md:text-lg line-through">
-                  Customers never have to leave the page to find an answer
+                <p className="text-base md:text-lg">
+                Get daily remainders about all your activities.
                 </p>
               </div>
             </div>
