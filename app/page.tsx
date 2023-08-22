@@ -70,8 +70,8 @@ export default function Home() {
                 </span>
               </h1>
               <p className="text-lg md:text-xl">
-              For students by students. Keep all your school life organized in one app, assignments, classes, exams and more!
-                
+                For students by students. Keep all your school life organized in
+                one app, assignments, classes, exams and more!
               </p>
               {/* <p className="text-lg md:text-xl">
               Designed by students for students. Keep all your school life organized in one app, assignments, classes, exams and more!
@@ -185,7 +185,7 @@ export default function Home() {
               <div className="flex gap-3 items-center">
                 <CheckCircle2 className="text-sky-800" />
                 <p className="text-base md:text-lg">
-                  See your calendar with all your tasks and events
+                  Organize your schedule week after week
                 </p>
               </div>
             </div>
@@ -229,10 +229,12 @@ export default function Home() {
               </div>
               <div className="flex flex-col gap-2 md:gap-4">
                 <p className="text-2xl md:text-3xl font-semibold">
-                Create, Save, and Sync
+                  Create, Save, and Sync
                 </p>
                 <p className="text-base md:text-lg">
-                Create all your tasks with due dates,notes and files, Save it and Sync your data across all your devices and access it anytime, anywhere.
+                  Create all your tasks with due dates,notes and files, Save it
+                  and Sync your data across all your devices and access it
+                  anytime, anywhere.
                 </p>
               </div>
             </div>
@@ -240,13 +242,13 @@ export default function Home() {
               <div className="flex gap-3 items-center">
                 <CheckCircle2 className="text-amber-800" />
                 <p className="text-base md:text-lg">
-                  Manage your assignments with dates, times and notes
+                  iPhone, iPad and mac, you’ll never forget a class again!
                 </p>
               </div>
               <div className="flex gap-3 items-center">
                 <CheckCircle2 className="text-amber-800" />
-                <p className="text-base md:text-lg line-through">
-                  Save, schedule, and automate reports to your inbox
+                <p className="text-base md:text-lg">
+                  Stay updated with your tasks
                 </p>
               </div>
               <div className="flex gap-3 items-center">
@@ -275,7 +277,9 @@ export default function Home() {
                   Get useful notifications
                 </p>
                 <p className="text-base md:text-lg">
-                Have you ever forgotten about an important deadline? Say no more! with InClass you can set your own preferences for when and how you want to be notified.
+                  Have you ever forgotten about an important deadline? Say no
+                  more! with InClass you can set your own preferences for when
+                  and how you want to be notified.
                 </p>
               </div>
             </div>
@@ -283,19 +287,20 @@ export default function Home() {
               <div className="flex gap-3 items-center">
                 <CheckCircle2 className="text-pink-800" />
                 <p className="text-base md:text-lg">
-                Get notifications before your classes, exams, or tasks.
+                  Get notifications before your classes, exams, or tasks.
                 </p>
               </div>
               <div className="flex gap-3 items-center">
                 <CheckCircle2 className="text-pink-800" />
                 <p className="text-base md:text-lg">
-                Start your day with all things you have to do, in just one tap.
+                  Start your day with all things you have to do, in just one
+                  tap.
                 </p>
               </div>
               <div className="flex gap-3 items-center">
                 <CheckCircle2 className="text-pink-800" />
                 <p className="text-base md:text-lg">
-                Get daily remainders about all your activities.
+                  Get daily remainders about all your activities.
                 </p>
               </div>
             </div>
