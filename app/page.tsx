@@ -64,7 +64,7 @@ export default function Home() {
                 </div>
               </a>
               <h1 className="text-4xl md:text-6xl font-semibold">
-                All your academic life{" "}
+                All your school life{" "}
                 <span className="underline-offset-8 rainbow-underline">
                   in one place
                 </span>
