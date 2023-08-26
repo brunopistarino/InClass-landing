@@ -26,7 +26,7 @@ const Page = async ({ params }: PageProps) => {
     // <div>
     //   <Mdx code={doc.body.code} />
     // </div>
-    <div className="max-w-4xl mx-auto">
+    <div className="max-w-4xl px-4 mx-auto">
       <main className="relative py-6 lg:gap-10 lg:py-10">
         <div className="mx-auto w-full min-w-0">
           <DocsPageHeader heading={doc.title} text={doc.description} />
