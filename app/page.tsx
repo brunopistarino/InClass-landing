@@ -300,7 +300,7 @@ export default function Home() {
               <div className="flex gap-3 items-center">
                 <CheckCircle2 className="text-pink-800" />
                 <p className="text-base md:text-lg">
-                  Get daily remainders about all your activities.
+                  Get daily reminders about all your activities.
                 </p>
               </div>
             </div>
@@ -508,7 +508,7 @@ export default function Home() {
             </div>
           </a>
           <div className="bg-slate-100 rounded-2xl h-60 flex flex-col justify-center items-center">
-            <p className="z-10 text-lg font-medium">macOS native</p>
+            <p className="z-10 text-lg font-medium">watch</p>
             <p className="absolute font-black text-5xl text-white text-center">
               COMING
               <br />
