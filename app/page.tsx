@@ -403,7 +403,7 @@ export default function Home() {
         className="flex flex-col py-16 md:py-24 gap-12 md:gap-24 w-full max-w-7xl scroll-m-8"
         id="contact"
       >
-        <div className="max-w-7xl px-4 md:px-8 flex justify-center">
+        {/* <div className="max-w-7xl px-4 md:px-8 flex justify-center">
           <div className="max-w-3xl flex flex-col gap-5 text-center relative">
             <img
               src="/scratches/3-arrows.png"
@@ -417,9 +417,9 @@ export default function Home() {
               Everything you need to know about our app.
             </p>
           </div>
-        </div>
+        </div> */}
 
-        <div className="max-w-7xl px-4 md:px-8 flex justify-center">
+        {/* <div className="max-w-7xl px-4 md:px-8 flex justify-center">
           <Accordion type="single" collapsible className="w-full max-w-3xl">
             {faqs.map((faq, index) => (
               <AccordionItem key={index} value={`item-${index}`}>
@@ -432,7 +432,7 @@ export default function Home() {
               </AccordionItem>
             ))}
           </Accordion>
-        </div>
+        </div> */}
 
         <div className="max-w-7xl px-4 md:px-8 flex justify-center w-full">
           <div className="py-8 px-5 md:px-8 bg-slate-100 rounded-2xl flex flex-col gap-8 items-center w-full relative">
