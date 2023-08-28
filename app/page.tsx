@@ -476,7 +476,9 @@ export default function Home() {
                 or suggestions, please contact us.
               </p>
             </div>
-            <Button>Get in touch</Button>
+            <a href="mailto:inclass2406@gmail.com">
+              <Button>Get in touch</Button>
+            </a>
           </div>
         </div>
       </section>
