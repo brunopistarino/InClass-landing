@@ -41,11 +41,13 @@ export default function Footer() {
         </div>
         <div className="flex flex-col gap-4">
           <p>Get the app</p>
-          <img
-            src="/appStoreBadge.svg"
-            className="w-[160px] mx-auto md:mx-0"
-            alt=""
-          />
+          <a href="https://apps.apple.com/us/app/inclass-school-planner/id6462791378?itsct=apps_box_badge&amp;itscg=30200">
+            <img
+              src="/appStoreBadge.svg"
+              className="w-[160px] mx-auto md:mx-0"
+              alt=""
+            />
+          </a>
         </div>
       </div>
       <div className="max-w-7xl px-8 w-full">

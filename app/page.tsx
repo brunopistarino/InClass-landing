@@ -56,7 +56,7 @@ export default function Home() {
         <div className="flex justify-between w-full items-center flex-col md:flex-row gap-16">
           <div className="max-w-xl flex flex-col gap-8 md:gap-12 relative">
             <div className="flex flex-col gap-4 md:gap-6 items-start">
-              <a href="">
+              <a href="https://apps.apple.com/us/app/inclass-school-planner/id6462791378?itsct=apps_box_badge&amp;itscg=30200">
                 <div className="border p-1 rounded-full flex items-center gap-2 pr-2">
                   <span className="border px-2 rounded-full">New!</span>{" "}
                   Available in App Store
@@ -81,11 +81,36 @@ export default function Home() {
               </p> */}
             </div>
             {/* <a href=""> */}
-            <img
-              src="/appStoreBadge.svg"
-              className="w-[160px] mx-auto md:mx-0"
-              alt=""
-            />
+            {/* <a
+              href="https://apps.apple.com/us/app/inclass-school-planner/id6462791378?itsct=apps_box_badge&amp;itscg=30200"
+              style={{
+                display: "inline-block",
+                overflow: "hidden",
+                borderRadius: "13px",
+                width: "250px",
+                height: "83px",
+              }}
+            >
+              <img
+                src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1693353600"
+                alt="Download on the App Store"
+                style={{
+                  borderRadius: "13px",
+                  width: "250px",
+                  height: "83px",
+                }}
+              />
+            </a> */}
+            <a
+              rel="stylesheet"
+              href="https://apps.apple.com/us/app/inclass-school-planner/id6462791378?itsct=apps_box_badge&amp;itscg=30200"
+            >
+              <img
+                src="/appStoreBadge.svg"
+                className="w-[160px] mx-auto md:mx-0"
+                alt=""
+              />
+            </a>
             {/* </a> */}
             <img
               src="/scratches/wave.png"

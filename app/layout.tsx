@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   description: "All your school life in one place",
   other: {
     "og:image": "/banner.png",
+    "apple-itunes-app": "app-id=6462791378",
   },
 };
 
