@@ -7,12 +7,34 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "InClass",
+  title: "InClass - School Planner",
   description: "All your school life in one place",
   other: {
     "og:image": "/banner.png",
     "apple-itunes-app": "app-id=6462791378",
   },
+  keywords: [
+    "school",
+    "planner",
+    "inclass",
+    "inclassapp",
+    "inclass app",
+    "school planner",
+    "school app",
+    "school planner app",
+    "school planner",
+    "ios app",
+    "timetable",
+    "study",
+    "schedule",
+    "tasks",
+    "exams",
+    "reminder",
+    "homework",
+    "college",
+    "education",
+    "academic",
+  ],
 };
 
 export default function RootLayout({

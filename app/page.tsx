@@ -105,13 +105,14 @@ export default function Home() {
               rel="stylesheet"
               href="https://apps.apple.com/us/app/inclass-school-planner/id6462791378?itsct=apps_box_badge&amp;itscg=30200"
             >
-              <img
-                src="/appStoreBadge.svg"
-                className="w-[160px] mx-auto md:mx-0"
-                alt=""
+              <Image
+                src={"/appStoreBadge.svg"}
+                width={160}
+                height={53}
+                alt="Download on the App Store"
+                className="mx-auto md:mx-0"
               />
             </a>
-            {/* </a> */}
             <img
               src="/scratches/wave.png"
               className="w-60 absolute hidden md:block bottom-[-110px]"
@@ -127,7 +128,7 @@ export default function Home() {
             {/* <img src="Blob.svg" className="" alt="" /> */}
             {/* <img src="mockup1.png" className="object-contain max-w-md" alt="" /> */}
             <img
-              src="/iphone3.png"
+              src="/mockups/iphone-today.png"
               className="object-contain max-w-md max-h-[650px] drop-shadow-xl z-10 hover:scale-105 transition-all duration-300"
               alt=""
             />
