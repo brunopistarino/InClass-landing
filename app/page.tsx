@@ -63,7 +63,7 @@ export default function Home() {
                   <ArrowRight />
                 </div>
               </a>
-              <h1 className="text-4xl md:text-6xl font-semibold">
+              <h1 className="text-4xl md:text-6xl font-semibold max-w-xs sm:max-w-none">
                 All your school life{" "}
                 <span className="underline-offset-8 rainbow-underline">
                   in one place
