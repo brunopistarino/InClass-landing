@@ -128,7 +128,7 @@ export default function Home() {
             {/* <img src="Blob.svg" className="" alt="" /> */}
             {/* <img src="mockup1.png" className="object-contain max-w-md" alt="" /> */}
             <img
-              src="/mockups/iphone-today.png"
+              src="/mockups/iphone-today2.webp"
               className="object-contain max-w-md max-h-[650px] drop-shadow-xl z-10 hover:scale-105 transition-all duration-300"
               alt=""
             />
@@ -402,7 +402,7 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-10">
             <img
-              src="/mockups/iphone-style-1.png"
+              src="/mockups/iphone-dark.webp"
               className="object-contain hover:scale-105 transition-all duration-300"
               alt=""
             />
