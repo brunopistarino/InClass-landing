@@ -218,7 +218,7 @@ export default function Home() {
           </div>
           <div className="flex flex-1 md:min-h-[512px] relative">
             <img
-              src="/mockups/ipad-schedule.png"
+              src="/mockups/ipad-schedule.webp"
               className="md:absolute h-full object-cover overflow-x-visible object-left drop-shadow-xl hover:scale-105 transition-all duration-300"
               alt=""
             />
@@ -233,12 +233,12 @@ export default function Home() {
               alt=""
             /> */}
             <img
-              src="/mockups/iphone-exams.png"
+              src="/mockups/iphone-exams.webp"
               className="object-contain drop-shadow-xl hover:scale-105 transition-all duration-300"
               alt=""
             />
             <img
-              src="/mockups/iphone-tasks.png"
+              src="/mockups/iphone-tasks.webp"
               className="object-contain drop-shadow-xl hover:scale-105 transition-all duration-300"
               alt=""
             />
@@ -407,17 +407,17 @@ export default function Home() {
               alt=""
             />
             <img
-              src="/mockups/iphone-style-2.png"
+              src="/mockups/iphone-appearance.webp"
               className="object-contain hover:scale-105 transition-all duration-300"
               alt=""
             />
             <img
-              src="/mockups/iphone-style-3.png"
+              src="/mockups/iphone-style-3.webp"
               className="object-contain hover:scale-105 transition-all duration-300"
               alt=""
             />
             <img
-              src="/mockups/iphone-style-4.png"
+              src="/mockups/iphone-colors.webp"
               className="object-contain hover:scale-105 transition-all duration-300"
               alt=""
             />
