@@ -72,7 +72,7 @@ export default function Page() {
     <main className="flex flex-col items-center py-16 md:py-24 gap-12 md:gap-16">
       <div className="max-w-7xl w-full px-4 md:px-8">
         <div className="flex flex-col gap-5">
-          <p className="text-4xl font-semibold">Lastest tutorials</p>
+          <p className="text-4xl font-semibold">Latest tutorials</p>
           <p className="text-xl text-gray-600">
             Get the most out of the app with these tutorials.
           </p>
