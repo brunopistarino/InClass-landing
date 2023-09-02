@@ -4,68 +4,67 @@ import Image from "next/image";
 export default function Page() {
   const tutoriasl = [
     {
-      title: "How to add a class",
-      description:
-        "How do you create compelling presentations that wow your colleagues and impress your managers?",
-      link: "/blog/privacy-policy",
-      image: "/blog/blog-test.png",
+      title: "How to manage subjects",
+      description: "Learn how to add, edit and remove a subject",
+      link: "/blog/how-to-manage-subjects",
+      image: "/blog/iphone-subjects-tutorial.png",
     },
-    {
-      title: "How to add a class",
-      description:
-        "How do you create compelling presentations that wow your colleagues and impress your managers?",
-      link: "/blog/privacy-policy",
-      image: "/blog/blog-test.png",
-    },
-    {
-      title: "How to add a class",
-      description:
-        "How do you create compelling presentations that wow your colleagues and impress your managers?",
-      link: "/blog/privacy-policy",
-      image: "/blog/blog-test.png",
-    },
-    {
-      title: "How to add a class",
-      description:
-        "How do you create compelling presentations that wow your colleagues and impress your managers?",
-      link: "/blog/privacy-policy",
-      image: "/blog/blog-test.png",
-    },
-    {
-      title: "How to add a class",
-      description:
-        "How do you create compelling presentations that wow your colleagues and impress your managers?",
-      link: "/blog/privacy-policy",
-      image: "/blog/blog-test.png",
-    },
-    {
-      title: "How to add a class",
-      description:
-        "How do you create compelling presentations that wow your colleagues and impress your managers?",
-      link: "/blog/privacy-policy",
-      image: "/blog/blog-test.png",
-    },
-    {
-      title: "How to add a class",
-      description:
-        "How do you create compelling presentations that wow your colleagues and impress your managers?",
-      link: "/blog/privacy-policy",
-      image: "/blog/blog-test.png",
-    },
-    {
-      title: "How to add a class",
-      description:
-        "How do you create compelling presentations that wow your colleagues and impress your managers?",
-      link: "/blog/privacy-policy",
-      image: "/blog/blog-test.png",
-    },
-    {
-      title: "How to add a class",
-      description:
-        "How do you create compelling presentations that wow your colleagues and impress your managers?",
-      link: "/blog/privacy-policy",
-      image: "/blog/blog-test.png",
-    },
+    // {
+    //   title: "How to add a class",
+    //   description:
+    //     "How do you create compelling presentations that wow your colleagues and impress your managers?",
+    //   link: "/blog/privacy-policy",
+    //   image: "/blog/blog-test.png",
+    // },
+    // {
+    //   title: "How to add a class",
+    //   description:
+    //     "How do you create compelling presentations that wow your colleagues and impress your managers?",
+    //   link: "/blog/privacy-policy",
+    //   image: "/blog/blog-test.png",
+    // },
+    // {
+    //   title: "How to add a class",
+    //   description:
+    //     "How do you create compelling presentations that wow your colleagues and impress your managers?",
+    //   link: "/blog/privacy-policy",
+    //   image: "/blog/blog-test.png",
+    // },
+    // {
+    //   title: "How to add a class",
+    //   description:
+    //     "How do you create compelling presentations that wow your colleagues and impress your managers?",
+    //   link: "/blog/privacy-policy",
+    //   image: "/blog/blog-test.png",
+    // },
+    // {
+    //   title: "How to add a class",
+    //   description:
+    //     "How do you create compelling presentations that wow your colleagues and impress your managers?",
+    //   link: "/blog/privacy-policy",
+    //   image: "/blog/blog-test.png",
+    // },
+    // {
+    //   title: "How to add a class",
+    //   description:
+    //     "How do you create compelling presentations that wow your colleagues and impress your managers?",
+    //   link: "/blog/privacy-policy",
+    //   image: "/blog/blog-test.png",
+    // },
+    // {
+    //   title: "How to add a class",
+    //   description:
+    //     "How do you create compelling presentations that wow your colleagues and impress your managers?",
+    //   link: "/blog/privacy-policy",
+    //   image: "/blog/blog-test.png",
+    // },
+    // {
+    //   title: "How to add a class",
+    //   description:
+    //     "How do you create compelling presentations that wow your colleagues and impress your managers?",
+    //   link: "/blog/privacy-policy",
+    //   image: "/blog/blog-test.png",
+    // },
   ];
 
   return (
@@ -78,8 +77,8 @@ export default function Page() {
           </p>
         </div>
       </div>
-      <p>WROK IN PROGRESS</p>
-      {/* <div className="max-w-7xl w-full px-4 md:px-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-12 md:gap-y-16">
+      {/* <p>WROK IN PROGRESS</p> */}
+      <div className="max-w-7xl w-full px-4 md:px-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-12 md:gap-y-16">
         {tutoriasl.map((tutorial, x) => (
           <Link
             className="flex flex-col gap-6 group"
@@ -104,7 +103,7 @@ export default function Page() {
             </div>
           </Link>
         ))}
-      </div> */}
+      </div>
     </main>
   );
 }
