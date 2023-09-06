@@ -258,7 +258,7 @@ export default function Home() {
                   Create, Save, and Sync
                 </p>
                 <p className="text-base md:text-lg">
-                  Create all your tasks with due dates,notes and files, Save it
+                  Create all your tasks with due dates, notes and files. Save it
                   and Sync your data across all your devices and access it
                   anytime, anywhere.
                 </p>
