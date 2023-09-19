@@ -68,8 +68,8 @@ export default function Page() {
   ];
 
   return (
-    <main className="flex flex-col items-center py-16 md:py-24 gap-12 md:gap-16">
-      <div className="max-w-7xl w-full px-4 md:px-8">
+    <main className="flex flex-col items-center gap-12 py-16 md:gap-16 md:py-24">
+      <div className="w-full max-w-7xl px-4 md:px-8">
         <div className="flex flex-col gap-5">
           <p className="text-4xl font-semibold">Latest tutorials</p>
           <p className="text-xl text-gray-600">
@@ -78,10 +78,10 @@ export default function Page() {
         </div>
       </div>
       {/* <p>WROK IN PROGRESS</p> */}
-      <div className="max-w-7xl w-full px-4 md:px-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-12 md:gap-y-16">
+      <div className="grid w-full max-w-7xl gap-x-8 gap-y-12 px-4 sm:grid-cols-2 md:gap-y-16 md:px-8 lg:grid-cols-3">
         {tutoriasl.map((tutorial, x) => (
           <Link
-            className="flex flex-col gap-6 group"
+            className="group flex flex-col gap-6"
             href={tutorial.link}
             key={x}
           >
@@ -90,7 +90,7 @@ export default function Page() {
                 src={tutorial.image}
                 alt={tutorial.title}
                 fill
-                className="object-cover rounded-2xl border"
+                className="rounded-2xl border object-cover"
               />
             </div>
             <div className="flex flex-col gap-2">
